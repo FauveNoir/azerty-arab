@@ -5,7 +5,7 @@ locale      = "ar"             # locale/language id
 variant     = "azerty"         # layout variant id
 author      = "‫القيوط (Fauve)‬"         # author name
 description = "‫تراكب صوتي لـAZERTY بالحروف العربية‬"
-url         = "https://github.com/OneDeadKey/kalamine"
+url         = "https://github.com/FauveNoir/azerty-arab"
 version     = "1.0.0"
 geometry    = "ISO"
 
