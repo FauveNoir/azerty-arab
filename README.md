@@ -35,20 +35,21 @@
 
 ## المبدأ
 ### حالة عامة
-من البديهي أن الحرف ا _الف_ موجود في نفس مكان الحرف _a_ من AZERTY، والحرف ز  _زاي_ في _z_ من AZERTY، وما إلى ذلك.
+من البديهي أن الحرف _ا_ موجود في نفس مكان الحرف _a_ من AZERTY، والحرف _ز_ في _z_ من AZERTY، وما إلى ذلك.
 
 ### الحروف ذات الصلة
 في الحالات التي يتطابق فيها حرفان عربيان مع نفس الحرف اللاتيني، يكون أحد الحرفين في الوصول المباشر، بينما يكون الآخر في <kbd>AltGr</kbd>.
 
-وهكذا في حالة الحروف د _دال_ و ذ _ذال_، والتي يمكن تشبيهها إلى الحرف اللتيني _d_، يتم توضيح الغموض بهذه الطريقة:
+وهكذا في حالة الحروف _د_  و _ذ_، والتي يمكن تشبيهها إلى الحرف اللتيني _d_، يتم توضيح الغموض بهذه الطريقة:
 - د: <kbd>D</kbd>
 - ذ: <kbd>AltGr</kbd>+<kbd>D</kbd>
 
 ### الإمكانيات المختلفة الأخرى
 - إذا ظلت الأرقام العربية قابلة للوصول المباشر  بتهجئة المغاربية (0123456789)، فإن مرادفاتها المشرقية (٠١٢٣٤٥٦٧٨٩) تظل سهلة للوصول بواسلة <kbd>Altgr</kbd>+<kbd>Shift</kbd>؛
-- ما يسمى بالمتغيرات المغاربية لـ _ق_ و _ف_ والتي هي ڧ (قاف عند النقطة المذكورة أعلاه) و ڢ (فاء عند النقطة المذكورة أسفله) يمكن الوصول إليها أيضًا بواسلة <kbd>Shift</kbd> من مرادفاتها؛
+- ما يسمى بالمتغيرات المغاربية لـ _ق_ و _ف_ والتي هي _ڧ_ (قاف عند النقطة المذكورة أعلاه) و _ڢ_ (فاء عند النقطة المذكورة أسفله) يمكن الوصول إليها أيضًا بواسلة <kbd>Shift</kbd> من مرادفاتها؛
 - الحروف الإضافية للغة العربية پ /p/، ڤ /p/
 ، ڭ /g/ المستخدمة في نسخ أصوات اللغة العربية المعاصرة، كما تتوفر اللغات  الأخرى المكتوبة بالحرف العربيت (مثل الأردية أو الباشتو أو الأويغور) بدلاً من معادلتها اللاتينية في AZERTY الأصلية؛
+- الرمز «ـ» المعروف بـ_تاتويل_ (ويعرف أيضاً بالفارسيةبإسم _كشيدة_) أي تطويل الروابط بين الحروف مما يسمح بإنحياز النصوم، خاصة في الشعر كما في المثال «جــــــــــادك الغيث»؛
 - تتوفر أيضًا رموز ۞۩ﷺ⚝☪ متنوعة أخرى.
 
 
@@ -89,6 +90,7 @@ Ainsi dans le cas des lettres د _dāl_ et ذ _dhāl_, qui peuvent toutes les de
 - Si les chiffres arabes restent accessibles dont leur graphie dite ghubar (0123456789), leurs équivalents machréquins (٠١٢٣٤٥٦٧٨٩) demeurent tout aussi facilement accessibles en <kbd>Altgr</kbd>+<kbd>Shift</kbd> ;
 - Les variantes dites maghrébines du ق _qāf_ et ف _fā’_ que sont ڧ _qāf au point suscrit_ et ڢ _fā’ au point souscrit_ sont également accessibles en <kbd>Shift</kbd> de leurs équivalents ;
 - Les lettres additionnelles de l’arabe پ _pa’_, ڤ _va’_, ڭ _gaf_ servant à transcrire les sons de l’arabe contemporain, des autres langues arabographiées que sont l’urdu, le pashto, ou le ouïghour sont également disponibles à l’endroit de leur équivalent latin sur l’AZERTY original ;
+- Accès au symbole « ـ » dit _tatwil_ (également connu en persan come _kashida_) soit l’allongement des liaisons entre lettres permetant la justification, notament dans la poésie comme dans « جـــــــادك الغيث » ;
 - Divers autres symboles ۞۩ﷺ⚝☪ sont aussi disponibles.
 
 
