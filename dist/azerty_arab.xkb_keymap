@@ -6,9 +6,9 @@
 // DO NOT COPY THIS INTO xkb/symbols: THIS WOULD MESS UP YOUR XKB CONFIG.
 //
 // File          : azerty_arab.xkb_keymap
-// Project page  : https://OneDeadKey.github.com/kalamine
+// Project page  : https://github.com/OneDeadKey/kalamine
 // Author        : ‫القيوط (Fauve)‬
-// Version       : 0.0.1
+// Version       : 1.0.0
 // License       : WTFPL - Do What The Fuck You Want Public License
 //
 // ‫تراكب صوتي لـAZERTY بالحروف العربية‬
@@ -37,7 +37,7 @@ xkb_keymap {
   // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 
   partial alphanumeric_keys modifier_keys
-  xkb_symbols "custom" {
+  xkb_symbols "azerty" {
     include "pc"
     include "inet(evdev)"
     include "level3(ralt_switch)"

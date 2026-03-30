@@ -2,11 +2,11 @@
 name        = "‫ازرتي عربي‬"  # full layout name, displayed in the keyboard settings
 name8       = "azerty_arab"         # short Windows filename: no spaces, no special chars
 locale      = "ar"             # locale/language id
-variant     = "custom"         # layout variant id
+variant     = "azerty"         # layout variant id
 author      = "‫القيوط (Fauve)‬"         # author name
 description = "‫تراكب صوتي لـAZERTY بالحروف العربية‬"
-url         = "https://OneDeadKey.github.com/kalamine"
-version     = "0.0.1"
+url         = "https://github.com/OneDeadKey/kalamine"
+version     = "1.0.0"
 geometry    = "ISO"
 
 full = '''

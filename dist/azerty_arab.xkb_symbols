@@ -6,9 +6,9 @@
 //     $XKB_CONFIG_ROOT/symbols/custom
 //
 // File          : azerty_arab.xkb_symbols
-// Project page  : https://OneDeadKey.github.com/kalamine
+// Project page  : https://github.com/OneDeadKey/kalamine
 // Author        : ‫القيوط (Fauve)‬
-// Version       : 0.0.1
+// Version       : 1.0.0
 // License       : WTFPL - Do What The Fuck You Want Public License
 //
 // ‫تراكب صوتي لـAZERTY بالحروف العربية‬
@@ -31,7 +31,7 @@
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 
 partial alphanumeric_keys modifier_keys
-xkb_symbols "custom" {
+xkb_symbols "azerty" {
     name[group1]= "‫تراكب صوتي لـAZERTY بالحروف العربية‬";
     key.type[group1] = "FOUR_LEVEL";
 
