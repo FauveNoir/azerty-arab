@@ -38,8 +38,8 @@ De façon assez intuitive la lettre ا _alif_ se trouve au même endroit que la 
 Dans les cas où deux lettres arabes se trouvent correspondre à une même lettre latine, alors l’une des deux lettres est en accès directe, tandis que l’autre est en <kbd>AltGr</kbd>.
 
 Ainsi dans le cas des lettres د _dāl_ et ذ _dhāl_, qui peuvent toutes les deux être assimilable au _d_ latin, la désambiguïsation se fait de cette sorte :
-- ⁦د : <kbd>d</kbd>⁩
-- ⁦ذ : <kbd>AltGr</kbd>+<kbd>d</kbd>⁩
+- ‎د : <kbd>d</kbd>⁩
+- ‎ذ : <kbd>AltGr</kbd>+<kbd>d</kbd>⁩
 
 ### Diverses autres possibilités
 - Si les chiffres arabes restent accessibles dont leur graphie dite ghubar (0123456789), leurs équivalents machréquins (٠١٢٣٤٥٦٧٨٩) demeurent tout aussi facilement accessibles en <kbd>Altgr</kbd>+<kbd>Shift</kbd> ;
@@ -52,8 +52,8 @@ Ainsi dans le cas des lettres د _dāl_ et ذ _dhāl_, qui peuvent toutes les de
 En revanche, lorsqu’une lettre se trouve pouvoir s’écrire de deux variantes toutes deux considérées comme sémantiquement équivalentes mais ne présentant que des variations de règles orthographiques ou de style, alors la variante considérée comme principale est en accès directe, tandis que la variante considérée comme secondaire se trouve en <kbd>Shift</kbd>.
 
 Ainsi dans le cas de la lettre ت _tā’_ et de sa variente ة _tā’ marbūṫa_ (_tā’_ bouclée) qui est assimilable au _t_ latin, la désambiguïsation se fait de cette sorte :
-- ⁦ت : <kbd>t</kbd>⁩
-- ⁦ة : <kbd>Shift</kbd>+<kbd>t</kbd>⁩
+- ‎ت : <kbd>t</kbd>⁩
+- ‎ة : <kbd>Shift</kbd>+<kbd>t</kbd>⁩
 
 ### Ligne des chiffres
 La ligne des chiffres à été totalement revue par rapport à l’héritage de l’AZERTY. Les principales modifications sont les suivantes :
