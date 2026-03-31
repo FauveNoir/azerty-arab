@@ -111,8 +111,6 @@ Si cette rationalisation de la ligne des chiffres vous perturbe trop par rapport
 
 ## Installation
 ### Linux
-### Windows
-### MacOS
 #### Remplacement du fichier en tant que root
 Cette façon est de loin la plus simple et la plus stable façon de procéder à l’installation de l’AZERTY arabe mais exige de disposer des privillèges de super-utilisateurs.
 ```
@@ -144,3 +142,5 @@ input type:keyboard {
     xkb_file /path/to/layout.xkb_keymap
 }
 ```
+### Windows
+### MacOS
