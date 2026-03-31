@@ -146,8 +146,8 @@ input type:keyboard {
 🔨
 ### MacOS
 1. Téléchargez le fichier [`azerty_arab.keylayout`](https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.keylayout) soit :
-  - Dans `~/Library/Keyboard Layouts` pour l’utilisateur actuel seulement ;
-  - Dans `/Library/Keyboard Layouts` pour tous les utilisateurs ;
+    - Dans `~/Library/Keyboard Layouts` pour l’utilisateur actuel seulement ;
+    - Dans `/Library/Keyboard Layouts` pour tous les utilisateurs ;
 2. Redémarrez votre système
 
 L’AZERTY arabe apparait alors dans la configuration « Langue et écriture » à l’onglet « Méthodes de saisie ».
