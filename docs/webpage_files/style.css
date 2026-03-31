@@ -357,3 +357,19 @@ kbd
     margin-left: 15px; /* Adds space between the image and the text */
 
 }
+
+.installations {
+    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.installation
+{
+    border-radius: 4px;
+    border: 1px solid #777;
+    background-color: #444;
+    padding: 8px;
+    text-align: center;
+}
