@@ -44,21 +44,20 @@
 - د: <kbd>D</kbd>
 - ذ: <kbd>AltGr</kbd>+<kbd>D</kbd>
 
-### الإمكانيات المختلفة الأخرى
-- إذا ظلت الأرقام العربية قابلة للوصول المباشر  بتهجئة المغاربية (0123456789)، فإن مرادفاتها المشرقية (٠١٢٣٤٥٦٧٨٩) تظل سهلة للوصول بواسلة <kbd>Altgr</kbd>+<kbd>Shift</kbd>؛
-- ما يسمى بالمتغيرات المغاربية لـ _ق_ و _ف_ والتي هي _ڧ_ (قاف عند النقطة المذكورة أعلاه) و _ڢ_ (فاء عند النقطة المذكورة أسفله) يمكن الوصول إليها أيضًا بواسلة <kbd>Shift</kbd> من مرادفاتها؛
-- الحروف الإضافية للغة العربية پ /p/، ڤ /p/
-، ڭ /g/ المستخدمة في نسخ أصوات اللغة العربية المعاصرة، كما تتوفر اللغات  الأخرى المكتوبة بالحرف العربيت (مثل الأردية أو الباشتو أو الأويغور) بدلاً من معادلتها اللاتينية في AZERTY الأصلية؛
-- الرمز «ـ» المعروف بـ_تاتويل_ (ويعرف أيضاً بالفارسيةبإسم _كشيدة_) أي تطويل الروابط بين الحروف مما يسمح بإنحياز النصوم، خاصة في الشعر كما في المثال «جــــــــــادك الغيث»؛
-- تتوفر أيضًا رموز ۞۩ﷺ⚝☪ متنوعة أخرى.
-
-
 ### الأشكال المختلفة لنفس الحرف
 من ناحية أخرى، عندما يمكن كتابة حرف في شكلين، بحيت كلا الشكلين يعتبران متكافئين لغويًا ولكنهما يقدمان فقط اختلافات في قواعد التهجئة أو الأسلوب، فإن الشكل الذي يعتبر أساسيًا يكون في الوصول المباشر، في حين أن الشكل الذي يعتبر ثانويًا يكون في <kbd>Shift</kbd>.
 
 وهكذا في حالة حرف _ت_ وشكلها الأخر أي  _ة_ _تاء مربوصة_ الذي يشبه الحرف اللاتيني _t_، يتم توضيح الغموض بهذه الطريقة:
 - ت: <kbd>t</kbd>
 - ة: <kbd>Shift</kbd>+<kbd>t</kbd>
+
+### الإمكانيات المختلفة الأخرى
+- إذا ظلت الأرقام العربية قابلة للوصول المباشر  بتهجئة المغاربية (0123456789)، فإن مرادفاتها المشرقية (٠١٢٣٤٥٦٧٨٩) تظل سهلة للوصول بواسلة <kbd>Altgr</kbd>+<kbd>Shift</kbd>؛
+- ما يسمى بالمتغيرات المغاربية لـ _ق_ و _ف_ والتي هي _ڧ_ (قاف عند النقطة المذكورة أعلاه) و _ڢ_ (فاء عند النقطة المذكورة أسفله) يمكن الوصول إليها أيضًا بواسلة <kbd>Shift</kbd> من مرادفاتها؛
+- الحروف الإضافية للغة العربية پ /p/، ڤ /p/، ڭ /g/ المستخدمة في نسخ أصوات اللغة العربية المعاصرة، كما تتوفر اللغات  الأخرى المكتوبة بالحرف العربيت (مثل الأردية أو الباشتو أو الأويغور) بدلاً من معادلتها اللاتينية في AZERTY الأصلية؛
+- الرمز «ـ» المعروف بـ_تاتويل_ (ويعرف أيضاً بالفارسيةبإسم _كشيدة_) أي تطويل الروابط بين الحروف مما يسمح بإنحياز النصوم، خاصة في الشعر كما في المثال «جــــــــــادك الغيث»؛
+- تتوفر أيضًا رموز ۞۩ﷺ⚝☪ متنوعة أخرى.
+
 
 ### صطر الأرقام
 تمت مراجعة صطر الأعداد بالكامل فيما يتعلق بتراث أزيرتي. التغييرات AZERTY هي كما يلي:
@@ -86,20 +85,20 @@ Ainsi dans le cas des lettres د _dāl_ et ذ _dhāl_, qui peuvent toutes les de
 - ‎د : <kbd>d</kbd>⁩
 - ‎ذ : <kbd>AltGr</kbd>+<kbd>d</kbd>⁩
 
-### Diverses autres possibilités
-- Si les chiffres arabes restent accessibles dont leur graphie dite ghubar (0123456789), leurs équivalents machréquins (٠١٢٣٤٥٦٧٨٩) demeurent tout aussi facilement accessibles en <kbd>Altgr</kbd>+<kbd>Shift</kbd> ;
-- Les variantes dites maghrébines du ق _qāf_ et ف _fā’_ que sont ڧ _qāf au point suscrit_ et ڢ _fā’ au point souscrit_ sont également accessibles en <kbd>Shift</kbd> de leurs équivalents ;
-- Les lettres additionnelles de l’arabe پ _pa’_, ڤ _va’_, ڭ _gaf_ servant à transcrire les sons de l’arabe contemporain, des autres langues arabographiées que sont l’urdu, le pashto, ou le ouïghour sont également disponibles à l’endroit de leur équivalent latin sur l’AZERTY original ;
-- Accès au symbole « ـ » dit _tatwil_ (également connu en persan come _kashida_) soit l’allongement des liaisons entre lettres permetant la justification, notament dans la poésie comme dans « جـــــــادك الغيث » ;
-- Divers autres symboles ۞۩ﷺ⚝☪ sont aussi disponibles.
-
-
 ### Variantes de lettres
 En revanche, lorsqu’une lettre se trouve pouvoir s’écrire de deux variantes toutes deux considérées comme sémantiquement équivalentes mais ne présentant que des variations de règles orthographiques ou de style, alors la variante considérée comme principale est en accès directe, tandis que la variante considérée comme secondaire se trouve en <kbd>Shift</kbd>.
 
 Ainsi dans le cas de la lettre ت _tā’_ et de sa variente ة _tā’ marbūṫa_ (_tā’_ bouclée) qui est assimilable au _t_ latin, la désambiguïsation se fait de cette sorte :
 - ‎ت : <kbd>t</kbd>⁩
 - ‎ة : <kbd>Shift</kbd>+<kbd>t</kbd>⁩
+
+
+### Diverses autres possibilités
+- Si les chiffres arabes restent accessibles dont leur graphie dite ghubar (0123456789), leurs équivalents machréquins (٠١٢٣٤٥٦٧٨٩) demeurent tout aussi facilement accessibles en <kbd>Altgr</kbd>+<kbd>Shift</kbd> ;
+- Les variantes dites maghrébines du ق _qāf_ et ف _fā’_ que sont ڧ _qāf au point suscrit_ et ڢ _fā’ au point souscrit_ sont également accessibles en <kbd>Shift</kbd> de leurs équivalents ;
+- Les lettres additionnelles de l’arabe پ _pa’_, ڤ _va’_, ڭ _gaf_ servant à transcrire les sons de l’arabe contemporain, des autres langues arabographiées que sont l’urdu, le pashto, ou le ouïghour sont également disponibles à l’endroit de leur équivalent latin sur l’AZERTY original ;
+- Accès au symbole « ـ » dit _tatwil_ (également connu en persan come _kashida_) soit l’allongement des liaisons entre lettres permetant la justification, notament dans la poésie comme dans « جـــــــادك الغيث » ;
+- Divers autres symboles ۞۩ﷺ⚝☪ sont aussi disponibles.
 
 ### Ligne des chiffres
 La ligne des chiffres à été totalement revue par rapport à l’héritage de l’AZERTY. Les principales modifications sont les suivantes :
@@ -108,3 +107,12 @@ La ligne des chiffres à été totalement revue par rapport à l’héritage de 
 3. Symbole @ en accès direct.
 
 Si cette rationalisation de la ligne des chiffres vous perturbe trop par rapport aux habitudes que vous avez prises sur AZERTY, n’hésitez pas à m’en faire part afin que je distribue une version de l’AZERTY arabe qui conserve une ligne des chiffres plus proches de l’AZERTY original.
+
+
+## Installation
+### Linux
+### Windows
+### MacOS
+#### En tant que root
+Cette façon est de loin la plus simple et la plus stable façon de procéder à l’installation de l’AZERTY arabe mais exige de disposer des privillèges de super-utilisateurs.
+#### En tant qu’utilisateur normal

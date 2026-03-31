@@ -311,3 +311,49 @@ text { fill: #bbb; }
   fill: white;
 }
 
+
+h4
+{
+    margin-bottom: 0.3em;
+}
+
+h4 + p,
+h4 + .image-wrap + p
+{
+    margin-top: 0;
+}
+
+kbd
+{
+  padding: 0.1em 0.6em;
+  border: 1px solid #CCC;
+  font-size: 0.9em;
+  background-color: #F7F7F7;
+  font-family: monospace,serif;
+  color: #333;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px #FFF inset;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0px 0.1em;
+  text-shadow: 0px 1px 0px #FFF;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+
+.explanations .image-wrap
+{
+   float: left; /* Floats the image to the left, text wraps on the right */
+    margin-right: 15px; /* Adds space between the image and the text */
+    margin-bottom: 15px; /* Adds space below the image */
+    max-width: 150px; /* Optional: set a specific width */
+    margin-top: 0.5em;
+}
+
+.explanations .image-wrap:nth-of-type(even)
+{
+   float: right; /* Floats the image to the left, text wraps on the right */
+    margin-right: 0px; /* Adds space between the image and the text */
+    margin-left: 15px; /* Adds space between the image and the text */
+
+}

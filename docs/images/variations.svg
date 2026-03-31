@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="96.727631mm"
+   height="92.972969mm"
+   viewBox="0 0 96.727631 92.972969"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="variations.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.49034272"
+     inkscape:cx="-82.595292"
+     inkscape:cy="612.83667"
+     inkscape:window-width="1916"
+     inkscape:window-height="964"
+     inkscape:window-x="0"
+     inkscape:window-y="76"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="2"
+       markerHeight="2"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-127,13.493767)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.7392px;line-height:1.25;font-family:Scheherazade;-inkscape-font-specification:Scheherazade;text-align:justify;letter-spacing:0px;word-spacing:0px;fill:#007edf;fill-opacity:1;stroke-width:0.435689"
+       x="185.06705"
+       y="76.667427"
+       id="text29-1"><tspan
+         sodipodi:role="line"
+         id="tspan29-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Scheherazade;-inkscape-font-specification:Scheherazade;fill:#007edf;fill-opacity:1;stroke-width:0.435689"
+         x="185.06705"
+         y="76.667427">ت</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.7392px;line-height:1.25;font-family:Scheherazade;-inkscape-font-specification:Scheherazade;text-align:justify;letter-spacing:0px;word-spacing:0px;fill:#d7005f;fill-opacity:1;stroke-width:0.435689"
+       x="124.67178"
+       y="79.172859"
+       id="text31-9"><tspan
+         sodipodi:role="line"
+         id="tspan31-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Scheherazade;-inkscape-font-specification:Scheherazade;fill:#d7005f;fill-opacity:1;stroke-width:0.435689"
+         x="124.67178"
+         y="79.172859">ة</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:38.1px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#9a9a9a;fill-opacity:1;stroke-width:0.264583"
+       x="171.78209"
+       y="12.299932"
+       id="text3-5"><tspan
+         sodipodi:role="line"
+         id="tspan3-3"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-anchor:middle;fill:#9a9a9a;fill-opacity:1;stroke-width:0.264583"
+         x="171.78209"
+         y="12.299932">T</tspan></text>
+    <g
+       id="g46"
+       transform="translate(52.412753,-868.13006)">
+      <path
+         style="fill:none;stroke:#f1f1f1;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+         d="m 122.82154,883.79654 30.69151,30.69151"
+         id="path45" />
+      <path
+         style="fill:none;stroke:#f1f1f1;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+         d="M 115.87903,883.79654 85.187517,914.48805"
+         id="path46" />
+    </g>
+    <g
+       id="g47"
+       transform="matrix(0.20900796,0,0,0.20900796,131.63949,-174.81285)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#b9b9b9;stroke-width:0.79375;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect46"
+         width="115.24973"
+         height="41.757141"
+         x="41.81266"
+         y="959.79456"
+         ry="7.5162878" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.1px;line-height:1.25;font-family:'Anonymous Pro';-inkscape-font-specification:'Anonymous Pro Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="100.69025"
+         y="992.78271"
+         id="text46"><tspan
+           sodipodi:role="line"
+           id="tspan46"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Anonymous Pro';-inkscape-font-specification:'Anonymous Pro Bold';stroke-width:0.264583"
+           x="100.69025"
+           y="992.78271">Shift</tspan></text>
+    </g>
+  </g>
+</svg>

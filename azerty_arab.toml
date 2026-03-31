@@ -1,7 +1,7 @@
 # kalamine keyboard layout descriptor
 name        = "‫ازرتي عربي‬"  # full layout name, displayed in the keyboard settings
 name8       = "azerty_arab"         # short Windows filename: no spaces, no special chars
-locale      = "ar"             # locale/language id
+locale      = "ara"             # locale/language id
 variant     = "azerty"         # layout variant id
 author      = "‫القيوط (Fauve)‬"         # author name
 description = "‫تراكب صوتي لـAZERTY بالحروف العربية‬"
