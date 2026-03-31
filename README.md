@@ -143,4 +143,6 @@ input type:keyboard {
 }
 ```
 ### Windows
+🔨
 ### MacOS
+🔨
