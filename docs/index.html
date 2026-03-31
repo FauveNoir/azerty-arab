@@ -1,17 +1,40 @@
 <!DOCTYPE html>
-<html  lang="ar" dir="rtl"><head>
-                <meta charset="utf-8">
-                <title>ازرتي عربي</title>
-                <link rel="stylesheet" type="text/css" href="webpage_files/style.css">
-                <script src="webpage_files/x-keyboard.js" type="module"></script>
-                <script src="webpage_files/livereload.js"></script>
-                <script src="webpage_files/demo.js" type="text/javascript"></script>
-                <script>angle_mod = false; </script>
-            <style type="text/css">@media print {
-        .TridactylStatusIndicator {
-            display: none !important;
-        }
-    }</style></head>
+<html  lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <title>ازرتي عربي</title>
+        <link rel="stylesheet" type="text/css" href="webpage_files/style.css">
+        <script src="webpage_files/x-keyboard.js" type="module"></script>
+        <script src="webpage_files/livereload.js"></script>
+        <script src="webpage_files/demo.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            function openCity(evt, cityName) {
+              // Declare all variables
+              var i, tabcontent, tablinks;
+  
+              // Get all elements with class="tabcontent" and hide them
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+  
+              // Get all elements with class="tablinks" and remove the class "active"
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+  
+              // Show the current tab, and add an "active" class to the button that opened the tab
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            } 
+        </script>
+        <script>angle_mod = false; </script>
+        <style type="text/css">
+            @media print {
+                    }
+        </style>
+    </head>
             <body>
                 <h1 style="text-align: center;font-variant: none;font-weight: normal;">
                     <span  style="font-size: 80pt;text-align: center;display: block;text-decoration: none;">‫ازرتي عربي‬</span>
@@ -33,15 +56,42 @@
                 </p>
                 </div>
                 <div class="installations">
-                    <div class="installation">
-                        التحميل والتثبيت على <b>لينكس</b>
-                    </div>
-                    <div class="installation">
-                        التحميل والتثبيت على <b>ويندوز</b>
-                    </div>
-                    <div class="installation">
-                        التحميل والتثبيت على <b>ماكويس</b>
-                    </div>
+                    <button class="installation" onclick="openCity(event, 'linux')">التحميل والتثبيت على <b>لينكس</b></button>
+                    <button class="installation" onclick="openCity(event, 'windows')">التحميل والتثبيت على <b>ويندوز</b></button>
+                    <button class="installation" onclick="openCity(event, 'macos')">التحميل والتثبيت على <b>ماكويس</b></button>
+                </div>
+
+
+
+                <!-- Tab content -->
+                <div id="linux" class="tabcontent">
+                  <h3>التثبيت على <b>لينكس</b></h3>
+                  <p>
+                  </p>
+                </div>
+
+                <div id="windows" class="tabcontent">
+                  <h3>التثبيت على <b>ويندوز</b></h3>
+                  <p>
+                  قمو بتنزيل الملف <a href="https://fauvenoir.github.io/azerty-arab/dist/azerty_arab-user.exe"><code>azerty_arab-user.exe</code></a>. يمكن إطلاق هذا الملف القابل للتنفيذ المحمول كمستخدم عاد.
+                  </p>
+                </div>
+
+                <div id="macos" class="tabcontent">
+                  <h3>التثبيت على <b>ماكويس</b></h3>
+                  <ol>
+                      <li>
+                          قم بتنزيل الملف <a href="https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.keylayout"><code>azerty_arab.keylayout</code></a> إما:
+                          <ul>
+                              <li>في <code>~/Library/Keyboard Layouts</code> للمستخدم الحالي فقط؛</li>
+                              <li>في <code>/المكتبة/تخطيطات لوحة المفاتيح</code> لجميع المستخدمين؛</li>
+                          </ul>
+                      </li>
+                      <li>أعد تشغيل النظام</li>
+                  </ol>
+
+                  <p>تظهر لوحة المفاتيح ازرتي العربي بعد ذلك في الإعدادات «اللغة والكتابة» في علامة التبويب «طرق الكتبة».</p>
+                  </p>
                 </div>
 
                 <div class="explanations">
