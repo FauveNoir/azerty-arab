@@ -113,6 +113,12 @@ Si cette rationalisation de la ligne des chiffres vous perturbe trop par rapport
 ### Linux
 ### Windows
 ### MacOS
-#### En tant que root
+#### Remplacement du fichier en tant que root
 Cette façon est de loin la plus simple et la plus stable façon de procéder à l’installation de l’AZERTY arabe mais exige de disposer des privillèges de super-utilisateurs.
+```
+sudo cp -i /usr/share/X11/xkb/symbols/ar /usr/share/X11/xkb/symbols/ar.bak
+sudo curl https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.xkb_symbols >> /usr/share/X11/xkb/symbols/ar
+```
+
+
 #### En tant qu’utilisateur normal
