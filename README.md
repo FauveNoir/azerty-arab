@@ -111,7 +111,7 @@ Si cette rationalisation de la ligne des chiffres vous perturbe trop par rapport
 
 ## Installation
 ### Linux
-#### Remplacement du fichier en tant que root
+#### Installation globale en tant que root
 Cette façon est de loin la plus simple et la plus stable façon de procéder à l’installation de l’AZERTY arabe mais exige de disposer des privillèges de super-utilisateurs.
 ```
 sudo cp -i /usr/share/X11/xkb/symbols/ar /usr/share/X11/xkb/symbols/ar.bak
@@ -143,7 +143,8 @@ input type:keyboard {
 }
 ```
 ### Windows
-🔨
+Téléchargez le fichier [`azerty_arab-user.exe`](https://fauvenoir.github.io/azerty-arab/dist/azerty_arab-user.exe). Cet exécutable portable peut être lancé en tant que simple utilisateur.
+
 ### MacOS
 1. Téléchargez le fichier [`azerty_arab.keylayout`](https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.keylayout) soit :
     - Dans `~/Library/Keyboard Layouts` pour l’utilisateur actuel seulement ;
