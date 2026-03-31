@@ -145,7 +145,7 @@ input type:keyboard {
 ### Windows
 🔨
 ### MacOS
-1. Télécharger le fichier [`azerty_arab.keylayout`](https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.keylayout) soit :
+1. Téléchargez le fichier [`azerty_arab.keylayout`](https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.keylayout) soit :
   - Dans `~/Library/Keyboard Layouts` pour l’utilisateur actuel seulement ;
   - Dans `/Library/Keyboard Layouts` pour tous les utilisateurs ;
 2. Redémarrez votre système
