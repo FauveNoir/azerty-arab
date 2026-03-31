@@ -120,5 +120,27 @@ sudo cp -i /usr/share/X11/xkb/symbols/ar /usr/share/X11/xkb/symbols/ar.bak
 sudo curl https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.xkb_symbols >> /usr/share/X11/xkb/symbols/ar
 ```
 
-
 #### En tant qu’utilisateur normal
+Le fichier `azerty_arab.xkb_symbols` peut s’exécuter dans l’espace personnel de l’utilisateur. En revanche, la principale limitation est que la disposition n’apparaitra pas dans la liste des dispositions dans le panneau de configuration.
+
+Pour se fait, téléchargez `azerty_arab.xkb_symbols` :
+```sh
+wget https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.xkb_symbols
+```
+##### Sous X.org
+Sous X.org, vous pouvez alors activer l’AZERTY arabe grâce à :
+```sh
+xkbcomp -w10 azerty_arab.xkb_symbols $DISPLAY
+```
+
+Et revenir en suite à votre AZERTY latin grâce :
+```sh
+setxkbmap fr
+```
+##### Sous Wayland
+Sous Wayland, la chose dépend de votre composeur. Avec Sway, il vous faudra adapter votre section des claviers comme suit:
+```
+input type:keyboard {
+    xkb_file /path/to/layout.xkb_keymap
+}
+```
