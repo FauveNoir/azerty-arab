@@ -66,8 +66,46 @@
                 <!-- Tab content -->
                 <div id="linux" class="tabcontent">
                   <h3>التثبيت على <b>لينكس</b></h3>
+                  <h4>التثبيت العام كمستخدم خارق</h4>
                   <p>
+                  هذه الطريقة هي الطريقة الأبسط والأكثر استقرارًا لتثبيت ازرتي العربي ولكنها تتطلب امتيازات المستخدم الخارق.
                   </p>
+                  <code dir="ltr">
+                      sudo cp -i /usr/share/X11/xkb/symbols/ar /usr/share/X11/xkb/symbols/ar.bak</br>
+
+sudo curl https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.xkb_symbols &gt;&gt; /usr/share/X11/xkb/symbols/ar
+                  </code>
+                  <h4>كمستخدم عادي</h4>
+                  <p>
+                  يمكن تنفيذ الملف <code>azerty_arab.xkb_symbols</code> في الوصط الشخصية للمستخدم. ومن ناحية أخرى، فإن الضعف الرئيسي هو أن التخطيط لن يظهر في قائمة التخطيطات في لوحة التحكم.
+                  </p>
+
+                  <p>
+                  للقيامو بذلك، قم بتحميل <code>azerty_arab.xkb_symbols</code>:
+                  </p>
+                  <code dir="ltr">
+wget https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.xkb_symbols
+                  </code>
+
+                  <h5>عن X.org</h5>
+                    <p>ضمن X.org، يمكنكم بعد ذلك تفعيل الازرتي العربية باستخدام:</p>
+                  <code dir="ltr">
+xkbcomp -w10 azerty_arab.xkb_symbols $DISPLAY
+                  </code>
+
+                  <p>ثم ارجع إلى AZERTY اللاتينية باستخدام:</p>
+                  <code dir="ltr">
+setxkbmap fr
+                  </code>
+
+                  <h5>عن Wayland</h5>
+                  <p>في وايلاند، يعتمد الأمر على مدير النوافد المستخدم. باستخدام Sway، ستحتاجو إلى تعديل تكيف لوحة المفاتيح لديكم كما يلي:</p>
+                  <code dir="ltr">
+                      input type:keyboard {<br />
+    xkb_file /path/to/layout.xkb_keymap<br />
+}
+                  </code>
+
                 </div>
 
                 <div id="windows" class="tabcontent">
@@ -83,8 +121,8 @@
                       <li>
                           قم بتنزيل الملف <a href="https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.keylayout"><code>azerty_arab.keylayout</code></a> إما:
                           <ul>
-                              <li>في <code>~/Library/Keyboard Layouts</code> للمستخدم الحالي فقط؛</li>
-                              <li>في <code>/المكتبة/تخطيطات لوحة المفاتيح</code> لجميع المستخدمين؛</li>
+                              <li>في <code>‪~/Library/Keyboard Layouts‬</code> للمستخدم الحالي فقط؛</li>
+                              <li>في <code>‪~/Library/Keyboard Layouts‬</code> لجميع المستخدمين؛</li>
                           </ul>
                       </li>
                       <li>أعد تشغيل النظام</li>
