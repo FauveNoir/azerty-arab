@@ -388,3 +388,8 @@ kbd
   border: 1px solid #ccc;
   border-top: none;
 }
+
+.os-logs
+{
+    height: 30px;
+}
