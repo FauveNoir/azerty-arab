@@ -1,7 +1,7 @@
 body {
   max-width: 64em;
   margin: 0 auto;
-  font-family: sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
 }
 
 input {
