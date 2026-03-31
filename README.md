@@ -151,4 +151,3 @@ input type:keyboard {
 2. Redémarrez votre système
 
 L’AZERTY arabe apparait alors dans la configuration « Langue et écriture » à l’onglet « Méthodes de saisie ».
-🔨
