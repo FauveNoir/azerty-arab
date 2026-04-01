@@ -126,14 +126,12 @@ Eh bien, l’AZERTY arabe propose une solution à cela. Ou plus exactement la so
 
 En effet sur les touches <kbd>خ</kbd>, <kbd>م</kbd>, <kbd>ل</kbd>, et <kbd>ك</kbd> se trouve en AltGr des caractères Unicode non-visibles permettant de régler le sens d’écriture.
 
-+---------+-------------------------------+----------+-------------------------+
 | Symbole | Position                      | Code     | Description             |
-+---------+-------------------------------+----------+-------------------------+
+|:--------|:------------------------------|:---------|:------------------------|
 | LRI     | <kbd>Altgr</kbd>+<kbd>خ</kbd> | `\u2066` | force gauche→droite     |
 | RLI     | <kbd>Altgr</kbd>+<kbd>م</kbd> | `\u2067` | force droite→gauche     |
 | FSI     | <kbd>Altgr</kbd>+<kbd>ل</kbd> | `\u2068` | direction automatique   |
 | PDI     | <kbd>Altgr</kbd>+<kbd>ك</kbd> | `\u2069` | fin du bloc             |
-+---------+-------------------------------+----------+-------------------------+
 
 Supposons que vous vouliez écrire un texte dont le rendu soit le suivant :
 
