@@ -17,11 +17,11 @@
 // │ # ¶ │ " ١ │ « ٢ │ » ٣ │ ( ٤ │ ) ٥ │ ~ ٦ │ + ٧ │ - ٨ │ / ٩ │ * ٠ │ =   │ +   ┃          ┃
 // │ $ – │ 1 „ │ 2 ﴾ │ 3 ﴿ │ 4 < │ 5 > │ 6 @ │ 7 [ │ 8 ] │ 9 { │ 0 } │ °   │ ٪ ؉ ┃ ⌫        ┃
 // ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
-// ┃        ┃ آ   │     │     │     │ ة   │ ئ   │ ً   │ ٍ   │ ٌ   │     │ ّ   │     ┃       ┃
-// ┃ ↹      ┃ ا ٱ │     │     │   غ │ ت ث │ ي ى │ َ   │ ِ   │ ُ   │     │ ء   │     ┃       ┃
+// ┃        ┃ آ   │     │     │ |   │ ة   │ ئ   │ ً   │ ٍ   │ ٌ   │     │ ّ   │     ┃       ┃
+// ┃ ↹      ┃ ا ٱ │     │     │ ر غ │ ت ث │ ي ى │ َ   │ ِ   │ ُ   │     │ ء   │     ┃       ┃
 // ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
-// ┃         ┃ ڧ   │     │ ۞   │ ڢ   │ گ   │     │     │     │     │     │ ۩   │ ﷺ   ┃      ┃
-// ┃ ⇬       ┃ ق   │     │ د ذ │ ف ڡ │ ڭ   │   ح │   ☪ │     │     │   ⚝ │ ط ظ │ ص ض ┃      ┃
+// ┃         ┃ ڧ   │     │ ۞   │ ڢ   │ گ   │ €   │ ☪   │     │     │ ⚝   │ ۩   │ ﷺ   ┃      ┃
+// ┃ ⇬       ┃ ق   │     │ د ذ │ ف ڡ │ ڭ   │ ه ح │ ج ⁦ │   ⁩ │   ⁨ │ م ⁧ │ ط ظ │ ص ض ┃      ┃
 // ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
 // ┃      ┃ إ   │ ؤ   │     │     │ ڥ   │     │     │ ؟   │ .   │     │     ┃               ┃
 // ┃ ⇧    ┃ أ   │ و   │     │     │ ڤ   │   ٮ │     │ ،   │ ؛   │     │     ┃ ⇧             ┃
@@ -51,7 +51,7 @@ xkb_symbols "azerty" {
     key <AD01> {[ U0627           , U0622           , U0671           , VoidSymbol      ]}; // ا آ ٱ
     key <AD02> {[ U0632           , VoidSymbol      , VoidSymbol      , VoidSymbol      ]}; // ز
     key <AD03> {[ U0652           , VoidSymbol      , VoidSymbol      , VoidSymbol      ]}; // ْ
-    key <AD04> {[ U0631           , VoidSymbol      , U063A           , VoidSymbol      ]}; // ر   غ
+    key <AD04> {[ U0631           , bar             , U063A           , VoidSymbol      ]}; // ر | غ
     key <AD05> {[ U062A           , U0629           , U062B           , VoidSymbol      ]}; // ت ة ث
     key <AD06> {[ U064A           , U0626           , U0649           , VoidSymbol      ]}; // ي ئ ى
     key <AD07> {[ U064E           , U064B           , VoidSymbol      , VoidSymbol      ]}; // َ ً
@@ -65,11 +65,11 @@ xkb_symbols "azerty" {
     key <AC03> {[ U062F           , U06DE           , U0630           , VoidSymbol      ]}; // د ۞ ذ
     key <AC04> {[ U0641           , U06A2           , U06A1           , VoidSymbol      ]}; // ف ڢ ڡ
     key <AC05> {[ U06AD           , U06AF           , VoidSymbol      , VoidSymbol      ]}; // ڭ گ
-    key <AC06> {[ U0647           , VoidSymbol      , U062D           , VoidSymbol      ]}; // ه   ح
-    key <AC07> {[ U062C           , VoidSymbol      , U262A           , VoidSymbol      ]}; // ج   ☪
-    key <AC08> {[ U0643           , VoidSymbol      , VoidSymbol      , VoidSymbol      ]}; // ك
-    key <AC09> {[ U0644           , VoidSymbol      , VoidSymbol      , VoidSymbol      ]}; // ل
-    key <AC10> {[ U0645           , VoidSymbol      , U269D           , VoidSymbol      ]}; // م   ⚝
+    key <AC06> {[ U0647           , EuroSign        , U062D           , VoidSymbol      ]}; // ه € ح
+    key <AC07> {[ U062C           , U262A           , U2066           , VoidSymbol      ]}; // ج ☪ ⁦
+    key <AC08> {[ U0643           , VoidSymbol      , U2069           , VoidSymbol      ]}; // ك   ⁩
+    key <AC09> {[ U0644           , VoidSymbol      , U2068           , VoidSymbol      ]}; // ل   ⁨
+    key <AC10> {[ U0645           , U269D           , U2067           , VoidSymbol      ]}; // م ⚝ ⁧
 
     // Letters, third row
     key <AB01> {[ U0648           , U0624           , VoidSymbol      , VoidSymbol      ]}; // و ؤ

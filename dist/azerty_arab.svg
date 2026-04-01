@@ -508,7 +508,7 @@
         <rect width="52" height="52" rx="5" ry="5" />
         <g class="key" text-anchor="middle">
           <text x="12.8" y="43.4" class="level1">ر</text>
-          <text x="12.8" y="20.6" class="level2" />
+          <text x="12.8" y="20.6" class="level2">|</text>
           <text x="38.0" y="43.4" class="level3">غ</text>
           <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
@@ -689,7 +689,7 @@
         <rect width="52" height="52" rx="5" ry="5" />
         <g class="key" text-anchor="middle">
           <text x="12.8" y="43.4" class="level1">ه</text>
-          <text x="12.8" y="20.6" class="level2" />
+          <text x="12.8" y="20.6" class="level2">€</text>
           <text x="38.0" y="43.4" class="level3">ح</text>
           <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
@@ -700,8 +700,8 @@
         <rect width="52" height="52" rx="5" ry="5" />
         <g class="key" text-anchor="middle">
           <text x="12.8" y="43.4" class="level1">ج</text>
-          <text x="12.8" y="20.6" class="level2" />
-          <text x="38.0" y="43.4" class="level3">☪</text>
+          <text x="12.8" y="20.6" class="level2">☪</text>
+          <text x="38.0" y="43.4" class="level3">⁦</text>
           <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
@@ -712,7 +712,7 @@
         <g class="key" text-anchor="middle">
           <text x="12.8" y="43.4" class="level1">ك</text>
           <text x="12.8" y="20.6" class="level2" />
-          <text x="38.0" y="43.4" class="level3" />
+          <text x="38.0" y="43.4" class="level3">⁩</text>
           <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
@@ -723,7 +723,7 @@
         <g class="key" text-anchor="middle">
           <text x="12.8" y="43.4" class="level1">ل</text>
           <text x="12.8" y="20.6" class="level2" />
-          <text x="38.0" y="43.4" class="level3" />
+          <text x="38.0" y="43.4" class="level3">⁨</text>
           <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />
@@ -733,8 +733,8 @@
         <rect width="52" height="52" rx="5" ry="5" />
         <g class="key" text-anchor="middle">
           <text x="12.8" y="43.4" class="level1">م</text>
-          <text x="12.8" y="20.6" class="level2" />
-          <text x="38.0" y="43.4" class="level3">⚝</text>
+          <text x="12.8" y="20.6" class="level2">⚝</text>
+          <text x="38.0" y="43.4" class="level3">⁧</text>
           <text x="38.0" y="20.6" class="level4" />
           <text x="38.0" y="43.4" class="level5" />
           <text x="38.0" y="20.6" class="level6" />

@@ -158,6 +158,7 @@ SendKey(base, deadkeymap) {
  SC12::SendKey("U+0652", {}) ; ْ
 
  SC13::SendKey("U+0631", {}) ; ر
++SC13::SendKey("U+007c", {}) ; |
 
  SC14::SendKey("U+062a", {}) ; ت
 +SC14::SendKey("U+0629", {}) ; ة
@@ -193,14 +194,17 @@ SendKey(base, deadkeymap) {
 +SC22::SendKey("U+06af", {}) ; گ
 
  SC23::SendKey("U+0647", {}) ; ه
++SC23::SendKey("U+20ac", {}) ; €
 
  SC24::SendKey("U+062c", {}) ; ج
++SC24::SendKey("U+262a", {}) ; ☪
 
  SC25::SendKey("U+0643", {}) ; ك
 
  SC26::SendKey("U+0644", {}) ; ل
 
  SC27::SendKey("U+0645", {}) ; م
++SC27::SendKey("U+269d", {}) ; ⚝
 
 ;  Letters, third row
 
@@ -313,9 +317,13 @@ SendKey(base, deadkeymap) {
 
  <^>!SC23::SendKey("U+062d", {}) ; ح
 
- <^>!SC24::SendKey("U+262a", {}) ; ☪
+ <^>!SC24::SendKey("U+2066", {}) ; ⁦
 
- <^>!SC27::SendKey("U+269d", {}) ; ⚝
+ <^>!SC25::SendKey("U+2069", {}) ; ⁩
+
+ <^>!SC26::SendKey("U+2068", {}) ; ⁨
+
+ <^>!SC27::SendKey("U+2067", {}) ; ⁧
 
 ;  Letters, third row
 
