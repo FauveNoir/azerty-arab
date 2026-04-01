@@ -396,3 +396,23 @@ kbd
 {
     height: 30px;
 }
+
+.simple
+{
+    color: #007edf;
+}
+
+.varient
+{
+    color: #d7005f;
+}
+
+.derivate
+{
+    color: #87ff00;
+}
+
+.primitiv
+{
+    color: #919191;
+}
