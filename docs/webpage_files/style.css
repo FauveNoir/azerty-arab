@@ -341,7 +341,8 @@ kbd
 }
 
 
-.explanations .image-wrap
+.explanations .image-wrap,
+.explanations .image-wrap.left:nth-of-type(even)
 {
    float: left; /* Floats the image to the left, text wraps on the right */
     margin-right: 15px; /* Adds space between the image and the text */
@@ -350,6 +351,7 @@ kbd
     margin-top: 0.5em;
 }
 
+.explanations .image-wrap.right,
 .explanations .image-wrap:nth-of-type(even)
 {
    float: right; /* Floats the image to the left, text wraps on the right */
@@ -357,6 +359,7 @@ kbd
     margin-left: 15px; /* Adds space between the image and the text */
 
 }
+
 
 .installations {
     margin-top: 20px;
