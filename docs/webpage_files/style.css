@@ -421,3 +421,11 @@ kbd
 {
     color: #fb660a;
 }
+
+svg .level4 .control-character
+{
+    color: #d7005f;
+    fill: #d7005f;
+    font-size: 0.5em;
+
+}

@@ -205,6 +205,11 @@ const symbols = {
   '*,': ' \u0326', // comma below
   '*¸': ' \u0327', // cedilla
   '*˛': ' \u0328', // ogonek
+  '\u2066': '<tspan class="control-character" style="fill: #d7005f; font-size:0.5em">LRI</tspan>',
+  '\u2067': '<tspan class="control-character" style="fill: #d7005f; font-size:0.5em">RLI</tspan>',
+  '\u2068': '<tspan class="control-character" style="fill: #d7005f; font-size:0.5em">FSI</tspan>',
+  '\u2069': '<tspan class="control-character" style="fill: #d7005f; font-size:0.5em">PDI</tspan>',
+
   // special keys, represented by a smaller single character
   // '*/': stroke   (no special glyph needed)
   // '*µ': greek    (no special glyph needed)
