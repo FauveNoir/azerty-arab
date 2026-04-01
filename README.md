@@ -119,6 +119,33 @@ La ligne des chiffres à été totalement revue par rapport à l’héritage de 
 
 Si cette rationalisation de la ligne des chiffres vous perturbe trop par rapport aux habitudes que vous avez prises sur AZERTY, n’hésitez pas à m’en faire part afin que je distribue une version de l’AZERTY arabe qui conserve une ligne des chiffres plus proches de l’AZERTY original.
 
+### Gestion de la bidirectionnalité (Vous allez aimer ça)
+Voyez-vous ce cas là où le sens de l’écriture change sans que vous compreniez à comprendre ce qui se passe ni à remédier ? Que tantôt les chiffres vont de droite à gauche, ou même dans tous les sens, que les mots s’écrivent en sens inverse, parfois même les lettres ? Vous connaissez cette situation.
+
+Eh bien, l’AZERTY arabe propose une solution à cela. Ou plus exactement la solution existait déjà et l’AZERTY arabe ne fait qu’y donner accès.
+
+En effet sur les touches <kbd>خ</kbd>, <kbd>م</kbd>, <kbd>ل</kbd>, et <kbd>ك</kbd> se trouve en AltGr des caractères Unicode non-visibles permettant de régler le sens d’écriture.
+
++---------+-------------------------------+----------+-------------------------+
+| Symbole | Position                      | Code     | Description             |
++---------+-------------------------------+----------+-------------------------+
+| LRI     | <kbd>Altgr</kbd>+<kbd>خ</kbd> | `\u2066` | force gauche→droite     |
+| RLI     | <kbd>Altgr</kbd>+<kbd>م</kbd> | `\u2067` | force droite→gauche     |
+| FSI     | <kbd>Altgr</kbd>+<kbd>ل</kbd> | `\u2068` | direction automatique   |
+| PDI     | <kbd>Altgr</kbd>+<kbd>ك</kbd> | `\u2069` | fin du bloc             |
++---------+-------------------------------+----------+-------------------------+
+
+Supposons que vous vouliez écrire un texte dont le rendu soit le suivant :
+
+<img src="./image/bidi-expected.svg" alt="" />
+
+Il est vraisemblable que vous obteniez quelque chose sens dessus dessous comme cela :
+
+<img src="./image/bidi-obtain.svg" alt="" />
+
+C’est alors que, grâce au caractères de contrôle bidirectionnels `LRI` (forcer l’écriture de droite à gauche localement) et `PDI` (fin du bloc de forçage et retour au sens d’écriture premier de la phrase, vous pourrez encadrer le bloc contenant le motif `12345|A|6` pour forcer cette partie à suivre le sens de gauche à droite.
+
+<img src="./image/bidi-solution.svg" alt="" />
 
 ## Installation
 ### Linux
