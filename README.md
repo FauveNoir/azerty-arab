@@ -135,15 +135,15 @@ En effet sur les touches <kbd>خ</kbd>, <kbd>م</kbd>, <kbd>ل</kbd>, et <kbd>ك
 
 Supposons que vous vouliez écrire un texte dont le rendu soit le suivant :
 
-<img src="./image/bidi-expected.svg" alt="" />
+<img src="./docs/image/bidi-expected.svg" alt="" />
 
 Il est vraisemblable que vous obteniez quelque chose sens dessus dessous comme cela :
 
-<img src="./image/bidi-obtain.svg" alt="" />
+<img src="./docs/image/bidi-obtain.svg" alt="" />
 
 C’est alors que, grâce au caractères de contrôle bidirectionnels `LRI` (forcer l’écriture de droite à gauche localement) et `PDI` (fin du bloc de forçage et retour au sens d’écriture premier de la phrase, vous pourrez encadrer le bloc contenant le motif `12345|A|6` pour forcer cette partie à suivre le sens de gauche à droite.
 
-<img src="./image/bidi-solution.svg" alt="" />
+<img src="./docs/image/bidi-solution.svg" alt="" />
 
 ## Installation
 ### Linux
