@@ -98,9 +98,10 @@ Il a été procédé autant que faire ce peu à une superposition sémantique la
 - La lettre و ne se trouve pas sur <kbd>o</kbd> mais sur <kbd>w</kbd> afin de permettre aux trois touches des diacritiques vocalisatrices (<span class="varient">ـَ ـِ ـُ</span>) de demeurer cote à cote ;
 - La <i lang=ar>hamza</i> ء se trouve sur le <kbd>^</kbd> de l’AZERTY ;
 - La fatĥa <span class="varient">ـَ</span> se trouve sur <kbd>u</kbd> afin de la maintenir cote à cote des deux autres diacritiques de vocalisation ;
-- La lettre خ se trouve à l’emplacement du <kbd>x</kbd> car le son auquel est associée cette lettre, la <a href="https://fr.wikipedia.org/wiki/Consonne_fricative_v%C3%A9laire_sourde">consonne fricative vélaire sourde</a> est souvent représenté par le symbole <i>x</i>, que ce soit dans l’<a href="https://fr.wikipedia.org/wiki/Alphabet_phon%C3%A9tique_international">API</a>, ou mêmes les autres langues qui ont ce son comme le χ du grec moderne, le x  du russe et de l’ukrainien, le x de l’azéri, et le x du kurde ;
+- La lettre خ se trouve à l’emplacement du <kbd>x</kbd> car, d’une part, cette touche était libre, et d’autre part le son auquel est associée cette lettre, la <a href="https://fr.wikipedia.org/wiki/Consonne_fricative_v%C3%A9laire_sourde">consonne fricative vélaire sourde</a> est souvent représenté par le symbole <i>x</i>, que ce soit dans l’<a href="https://fr.wikipedia.org/wiki/Alphabet_phon%C3%A9tique_international">API</a>, ou mêmes les autres langues qui ont ce son comme le χ du grec moderne, le x  du russe et de l’ukrainien, le x de l’azéri, et le x du kurde ;
 - La lettre ع se trouve à l’emplacement du <kbd>$</kbd> par défaut d’équivalent en latin ;
-- La lettre أ (<i>alif hamza</i>) se trouve à l’emplacement de <kbd></kbd> par défaut de meilleur emplacement.
+- La lettre أ (<i>alif hamza</i>) se trouve à l’emplacement de <kbd><</kbd> par défaut de meilleur emplacement ;
+- Par corolaire, La lettre إ se trouve de façon intuitive en <kbd>Shift</kbd>+<kbd>أ</kbd>.
 
 
 ### Diverses autres possibilités
