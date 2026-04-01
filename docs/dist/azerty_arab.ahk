@@ -200,8 +200,10 @@ SendKey(base, deadkeymap) {
 +SC24::SendKey("U+262a", {}) ; ☪
 
  SC25::SendKey("U+0643", {}) ; ك
++SC25::SendKey("U+00a0", {}) ;  
 
  SC26::SendKey("U+0644", {}) ; ل
++SC26::SendKey("U+00a0", {}) ;  
 
  SC27::SendKey("U+0645", {}) ; م
 +SC27::SendKey("U+269d", {}) ; ⚝
