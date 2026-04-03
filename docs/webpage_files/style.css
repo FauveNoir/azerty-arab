@@ -463,5 +463,15 @@ table thead + tbody tr:last-of-type  td
 
 .central-illustraton > table
 {
-    display: inline-block;text-align: left;
+    display: inline-block;
+}
+
+html[dir="ltr"] .central-illustraton > table
+{
+    text-align: left;
+}
+
+html[dir="rtl"] .central-illustraton > table
+{
+    text-align: right;
 }
