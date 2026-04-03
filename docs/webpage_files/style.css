@@ -435,3 +435,33 @@ kbd
     }
 }
 
+
+thead {
+      position: relative;
+  }
+
+thead th {
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+}
+
+table th,
+table td
+{
+        padding: 4px;
+}
+
+table thead + tbody tr:last-of-type  td
+{
+    border-bottom: 1px solid white;
+}
+
+.central-illustraton
+{
+    text-align: center;
+}
+
+.central-illustraton > table
+{
+    display: inline-block;text-align: left;
+}
