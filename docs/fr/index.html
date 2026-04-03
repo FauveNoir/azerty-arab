@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html  lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>AZERTY Arabe — ازرتي عربي</title>
+        <link rel="stylesheet" type="text/css" href="../webpage_files/style.css">
+        <link rel="icon" href="../images/logo-azerty-arab.ico" type="image/x-icon">
+        <script src="../webpage_files/x-keyboard.js" type="module"></script>
+        <script src="../webpage_files/livereload.js"></script>
+        <script src="../webpage_files/demo.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            function openCity(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            } 
+        </script>
+        <script>angle_mod = false; </script>
+        <style type="text/css">
+@media print {
+}
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;font-variant: none;font-weight: normal;">
+            ‫ازرتي عربي‬<br />
+            <span  style="font-size: 80pt;text-align: center;display: block;text-decoration: none;">AZERTY arabe</span>
+            <br>Substitution phonétique de l’AZERTY par les lettres de l’alphabet arabe
+        </h1>
+        <div  dir="ltr">
+            <input id="spelltest" spellcheck="false" style="font-size: 30pt;" placeholder="Essayez dès maintenant !">
+        </div>
+        <div dir="ltr">
+            <x-keyboard src="../dist/azerty_arab.json"></x-keyboard>
+            <p style="text-align: right; display: none;">
+            <select>
+                <option value="iso" selected="selected">  ISO  </option>
+                <option value="ansi"> ANSI </option>
+                <option value="ol60"> ERGO </option>
+                <option value="ol50"> 4×12 </option>
+                <option value="ol40"> 3×12 </option>
+            </select>
+            </p>
+        </div>
+        <div class="installations">
+            <button class="installation" onclick="openCity(event, 'linux')"><img src="../images/GNU_and_Tux.svg" class="os-logs"><br />Téléchargement et installation sur <b>Linux</b></button>
+            <button class="installation" onclick="openCity(event, 'windows')"><img src="../images/windows.svg" class="os-logs"><br />Téléchargement et installation sur <b>Windows</b></button>
+            <button class="installation" onclick="openCity(event, 'macos')"><img src="../images/apple.svg" class="os-logs"><br />Téléchargement et installation sur <b>Macos</b></button>
+        </div>
+
+
+
+        <!-- Tab content -->
+        <div id="linux" class="tabcontent">
+            <h3>Installation sous <b>Linux</b></h3>
+            <h4>Installation globale en tant que root</h4>
+            <p>
+Cette façon est de loin la plus simple et la plus stable façon de procéder à l’installation de l’AZERTY arabe mais exige de disposer des privilèges de super-utilisateurs.
+            </p>
+            <code dir="ltr">
+                sudo cp -i /usr/share/X11/xkb/symbols/ar /usr/share/X11/xkb/symbols/ar.bak</br>
+
+                sudo curl https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.xkb_symbols &gt;&gt; /usr/share/X11/xkb/symbols/ar
+            </code>
+            <h4>En tant qu’utilisateur normal</h4>
+            <p>
+            Le fichier <code>azerty_arab.xkb_symbols</code> peut s’exécuter dans l’espace personnel de l’utilisateur. En revanche, la principale limitation est que la disposition n’apparaitra pas dans la liste des dispositions dans le panneau de configuration.
+
+            </p>
+
+            <p>
+            Pour se fait, téléchargez <code>azerty_arab.xkb_symbols</code> :
+            </p>
+            <code dir="ltr">
+                wget https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.xkb_symbols
+            </code>
+
+            <h5>Sous X.org</h5>
+            <p>
+            Sous X.org, vous pouvez alors activer l’AZERTY arabe grâce à :
+            </p>
+            <code dir="ltr">
+                xkbcomp -w10 azerty_arab.xkb_symbols $DISPLAY
+            </code>
+
+            <p>
+            Et revenir en suite à votre AZERTY latin grâce :
+            </p>
+            <code dir="ltr">
+                setxkbmap fr
+            </code>
+
+            <h5>Sous Wayland</h5>
+            <p>
+            Sous Wayland, la chose dépend de votre composeur. Avec Sway, il vous faudra adapter votre section des claviers comme suit:
+            </p>
+            <code dir="ltr">
+                input type:keyboard {<br />
+                xkb_file /path/to/layout.xkb_keymap<br />
+                }
+            </code>
+
+        </div>
+
+        <div id="windows" class="tabcontent">
+            <h3>Installation sous <b>Windows</b></h3>
+            <p>
+            Téléchargez le fichier <a href="https://fauvenoir.github.io/azerty-arab/dist/azerty_arab-user.exe"><code>azerty_arab-user.exe</code></a>. Cet exécutable portable peut être lancé en tant que simple utilisateur.
+            </p>
+        </div>
+
+        <div id="macos" class="tabcontent">
+            <h3>Installation sous <b>Macos</b></h3>
+            <ol>
+                <li>
+                    Téléchargez le fichier <a href="https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.keylayout"><code>azerty_arab.keylayout</code></a> soit :
+                    <ul>
+                        <li>Dans <code>‪~/Library/Keyboard Layouts‬</code> pour l’utilisateur actuel seulement ;</li>
+                        <li>Dans <code>‪~/Library/Keyboard Layouts‬</code> pour tous les utilisateurs ;</li>
+                    </ul>
+                </li>
+                <li>Redémarrez votre système.</li>
+            </ol>
+
+            <p>L’AZERTY arabe apparait alors dans la configuration « Langue et écriture » à l’onglet « Méthodes de saisie ».</p>
+            </p>
+        </div>
+
+        <div class="explanations">
+            <h4></h4>
+            <p>
+            La disposition du clavier <b>AZERTY Arabe</b> s’adresse à tous ceux qui ont l’habitude de saisir en AZERTY pour leurs textes en alphabet latin. En fait, combien de fois a-t-il été ennuyeux d’appuyer sur la touche <span class="primitiv">A</span> et de ne pas obtenir le <span class="derivate">أ</span> alif tant attendu ? Vous êtes vous déjà agacé en vous disant : « Si seulement il existait un clavier où chaque lettre arabe serait sur la même touche que son équivalent phonétique latin » ? Eh bien, l’AZERTY arabe est ce clavier-là.
+            </p>
+            <h4>Superposition phonétique</h4>
+            <img src="../images/elementary-phonetic-superposition.svg" alt="A→ا Z→ز K→ك" class="image-wrap">
+            <p>
+            L’AZERTY arabe est une disposition de clavier pour saisir l’abjad arabe basée sur le principe de superposition phonétique. C’est-à-dire que les lettres arabes sont disposées de manière à ce que chaque lettre se retrouve sur la touche qui, dans la disposition originale du clavier AZERTY, contient la lettre latine qui en est la plus proche phonétiquement. De sorte à ce qu’une personne habituée à l’AZERTY original puisse retrouver intuitivement les lettres arabes avec le moins d’effort possible.<br />
+
+            Par exemple, la lettre <span class="derivate">ا</span> alif est sur la même touche que <span class="primitiv">A</span>, <span class="derivate">ب</span> ba’ est sur la même touche que <span class="primitiv">B</span>, <span class="derivate">ك</span> kaf est sur la même touche que <span class="primitiv">K</span>, etc.
+            </p>
+
+            <img src="../images/variations.svg" alt="T→{ت ; Shift:ة}" class="image-wrap" width="150px">
+            <h4>Variantes de lettres</h4>
+            <p>
+            Quelques lettres arabes peuvent exister sous deux formes, comme le tā’ qui peut s’écrire sous sa forme tā’ ouvert <span class="simple">ت</span> et tā’ bouclé <span class="varient">ة</span>. Et quoiqu’il s’agisse de la même lettre ayant une valeur sémantique équivalente du point de vue de la langue, l’utilisateur doit être capable de choisir quelle forme saisir. Dans ce cas, la forme considérée comme principale ou à tout le moins la plus courante est disponible en accès directe quand la forme plus secondaire est accessible en <kbd>Shift</kbd>.
+            </p>
+
+            <h4>Lettres connexes ou semblables</h4>
+            <img src="../images/similarities.svg" alt="D→{د ; AltGr:ذ}" class="image-wrap" width="150px">
+            <p>
+            En revanche, dans les cas où existent une concurrence entre deux lettres arabes considérées comme orthographiquement et sémantiquement différentes à occuper une même touche, soit parce que leurs sons sont également proches d’une même lettre latine (comme <span class="simple">د</span> dal et <span class="varient">ذ</span> dhal), soit parce que leur graphie est proche (comme <span class="simple">ط</span> ṭāʾ et <span class="varient">ظ</span> ẓā), dans ce cas la lettre considérée comme la plus proche intuitivement de la lettre latine est en accès directe, quand la seconde reste disponible <kbd>AltGr</kbd>.
+
+            </p>
+
+            <h4>Quelques mises en gardes supplémentaires</h4>
+            <p>
+Il a été procédé autant que faire ce peu à une superposition sémantique la plus mnémotechnique possible. Toutefois, il a bien fallut concilier cette exigences avec certaines contraintes de disponibilités. C’est pourquoi le cas de certaines lettres nécessitent quelques explications aux utilisateurs :
+            </p>
+            <ul>
+                <li>
+                    La lettre <span class="derivate">و</span> waw ne se trouve pas sur o mais sur <span class="primitiv">w</span> afin de permettre aux trois touches des diacritiques vocalisatrices (<kbd>ـَ</kbd> <kbd>ـِ</kbd> <kbd>ـُ</kbd>) de demeurer cote à cote ;
+                </li>
+                <li>
+                    La fatĥa <span class="derivate">ـَ</span> se trouve sur <span class="primitiv">u</span> afin de la placer cote à cote des deux autres diacritiques de vocalisation ;
+                </li>
+                <li>
+                    La lettre <span class="derivate">خ</span> khā se trouve sur <span class="primitiv">x</span>.<br />
+                    <small>
+                    Et ce car, i) d’une part, cette touche était libre, et ii) d’autre part le son auquel est associée cette lettre, la <a href="https://fr.wikipedia.org/wiki/Consonne_fricative_v%C3%A9laire_sourde">consonne fricative vélaire sourde</a> est souvent représenté par le symbole <i>x</i>, que ce soit dans l’<a href="https://fr.wikipedia.org/wiki/Alphabet_phon%C3%A9tique_international">API</a>, ou mêmes les autres langues qui ont ce son comme le χ du grec moderne, le x du russe et de l’ukrainien, le x de l’azéri, et le x du kurde ;
+                    </small>
+                </li>
+                <li>
+                    La lettre <span class="derivate">ع</span> ayn se trouve à l’emplacement du <span class="primitiv">$</span> par défaut d’équivalent en latin ;
+                </li>
+                <li>
+                    La lettre <span class="derivate">أ</span> <i>alif hamza</i> se trouve à l’emplacement de <span class="primitiv">&lt;</span> par défaut de meilleur emplacement ;
+                </li>
+                <li>
+                    Par corolaire, La lettre <span class="derivate">إ</span> <i>alif hamza souscrite</i> se trouve de façon intuitive en <kbd>Shift</kbd>+<kbd>أ</kbd>.
+                </li>
+            </ul>
+
+            <img src="../images/digits.svg" alt="012345678 ٠١٢٣٤٥٦٧٨٩" class="image-wrap">
+            <h4>Les deux formes des chiffres</h4>
+            <p>
+            Alors que les chiffres arabes restent directement accessibles dans leur graphie dite ghubar en usage au Maghréb (<span class="simple">0123456789</span>), leurs équivalents machréquins (<span class="varient">0123456789</span>) restent facilement accessibles en utilisant <kbd>Altgr</kbd>+<kbd>Shift</kbd> dans les cas où il y’en aurait besoin.
+            </p>
+
+            <h4>Diacritiques de vocalisation (<i>chakl</i>)</h4>
+            <img src="../images/vocalization.svg" alt="" class="image-wrap">
+            <p>
+                Les signes diacritiques de vocalisations <span class="varient">ـَ ـِ ـُ</span> fatĥa kasra ḋamma sont réunis sur des touches cote à cote de façon mnémotechnique et intuitive, tout en respectant autant que possible le principe de superposition phonétique régissant l’ensemble.<br />
+                Aussi, les signes casuels (<i lang="ara">tanwin</i>) <span class="simple">ـً ـٍ ـٌ</span> fatĥaẗān ḋammaẗan kasraẗan sont disponibles en <kbd>Shift</kbd> de leurs équivalents simples
+            </p>
+
+
+
+            <img src="../images/extended-letters.svg" alt="P→پ V→ڤ G→ڭ" class="image-wrap">
+            <h4>Lettres additionnelles</h4>
+            <p>
+            Les lettres additionnelles de l’arabe <span class="derivate">پ</span> pa’, <span class="derivate">ڤ</span> va’, <span class="derivate">ڭ</span> gaf servant à transcrire les sons de l’arabe contemporain, des dialectes arabes, des autres langues arabographiées que sont l’urdu, le pashto, ou le ouïghour sont également disponibles à l’endroit de leur équivalent latin sur l’AZERTY original, soit respectivement <span class="primitiv">P</span>، <span class="primitiv">V</span>، et <span class="primitiv">G</span>.
+            </p>
+
+
+            <h4><i>Tatwil</i></h4>
+            <img src="../images/tatwil.svg" alt="ضاق عن وجدي بكم رحب الفضا
+                      لا أبـــــــــــالي شـــــــــــــــــــــــــــــــــرقه من غربـه
+
+" class="image-wrap" width="200px">
+            <p>
+            Le symbole « ـ » dit <i>tatwil</i> (également connu en persan come <i>kashida</i>) soit l’allongement des liaisons entre lettres permettant la justification, notamment dans la poésie comme dans <q><i lang="ar">جــــــــــــــــــــادك الغيث</i></q> est accessible en <kbd>Shift</kbd>+<kbd>AltGr</kbd>+<kbd>Espace</kbd>.
+            </p>
+
+            <img src="../images/complementary-symbols.svg" alt="[] () {}" class="image-wrap">
+            <h4>Symboles supplémentaires</h4>
+            <p>
+            Vous êtes-vous déjà demandé « Pourquoi cette parenthèse fermante n’est-elle pas à côté de la parenthèse ouvrante » ? Eh bien, vous ne vous la poserez plus. Les symboles complémentaires tels que ()[]{}«» se situent tous côte à côte de façon intuitive et mnémotechnique. 
+            </p>
+
+
+            <h4>Symboles divers</h4>
+            <img src="../images/miscelarnous.svg" alt="۞۩ﷺ⚝☪$€" class="image-wrap"/>
+            <p>
+            Les symboles utilisés dans l’écriture et l’édition arabes sont disponibles, en plus des symboles contemporains comme les signes critiques ou ceux nécessaires à l’informatique.
+            </p>
+
+            <img src="../images/maghrebi-variation.svg" alt="" class="image-wrap">
+            <h4>Variations maghrébines historiques</h4>
+            <p>
+            Les variations historiques du Maghreb, quoiqu’encore utilisées dans quelques publications coraniques, que sont le fā’ au point souscrit <span class="varient">ڢ</span> et le le qāf au tréma suscrit <span class="varient">ڧ</span> sont accessibles en <kbd>Shift</kbd> de leurs équivalents communs.<br />
+            Soit dans le détail :
+            أو بالتفصيل:
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <span class="varient">ڢ</span> (<span class="simple">ف</span> maghrébin)
+                    </td>
+                    <td>
+                        <kbd>Shift</kbd>+<kbd>ف</kbd>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="varient">ڧ</span> (<span class="simple">ق</span> maghrébin)
+                    </td>
+                    <td>
+                        <kbd>Shift</kbd>+<kbd>ق</kbd>
+                    </td>
+                </tr>
+            </table>
+
+            <h4>Gestion de la bidirectionnalité (Vous allez aimer ça !)</h4>
+            <h5>Principe général</h5>
+            <p>
+            Voyez-vous ce cas là où le sens de l’écriture change sans que vous parveniez à comprendre ce qui se passe ni à remédier ? Que tantôt les chiffres vont de droite à gauche, ou même dans tous les sens, que les mots s’écrivent en sens inverse, parfois même les lettres ? Vous avez assurément déjà vécu pareille situation des plus frustrantes.
+
+            </p>
+            <p>
+            Eh bien, l’AZERTY arabe propose une solution à cela. Ou plus exactement la solution existait déjà et l’AZERTY arabe ne fait qu’y donner accès.
+            </p>
+            <p>
+            </p>
+            <div class="central-illustraton" >
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbole</th>
+                        <th>Formation de touche</th>
+                        <th>Code Unicode</th>
+                        <th>Explications</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>LRI</td>
+                        <td><kbd>Altgr</kbd>+<kbd>خ</kbd></td>
+                        <td><code>⁦\u2066</code></td>
+                        <td>Force le sens de gauche→droite</td>
+                    </tr>
+                    <tr>
+                        <td>RLI</td>
+                        <td><kbd>Altgr</kbd>+<kbd>م</kbd></td>
+                        <td><code>⁦\u2067</code></td>
+                        <td>Force le sens de droite→gauche</td>
+                    </tr>
+                    <tr>
+                        <td>FSI</td>
+                        <td><kbd>Altgr</kbd>+<kbd>ل</kbd></td>
+                        <td><code>⁦\u2068</code></td>
+                        <td>Sens déduit automatiquement</td>
+                    </tr>
+                    <tr>
+                        <td>PDI</td>
+                        <td><kbd>Altgr</kbd>+<kbd>ك</kbd></td>
+                        <td><code>⁦\u2069</code></td>
+                        <td>Fin du bloc d’orientation forcée</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <h5>Mode d’emploi</h5>
+            <p>
+            Supposons que vous souhaitiez écrire un texte ressemblant à ceci :
+            </p>
+            <img src="../images/bidi-expected.svg" alt="" />
+
+            <p>
+            Vous obtiendrez probablement un résultat sens dessus dessous comme celui-ci :
+            </p>
+            <img src="../images/bidi-obtain.svg" alt="" />
+
+            <p>
+            Grâce aux caractères de contrôle bidirectionnels <code>LRI</code> en saisissant <kbd>Altgr</kbd>+<kbd>خ</kbd> (forcer l’écriture locale de gauche à droite) et <code>PDI</code> en saisissant <kbd>Altgr</kbd>+<kbd>ك</kbd> (fin de bloc d’effet et retour au sens d’écriture original de la phrase), vous pouvez encadrer le bloc contenant le motif <code>12345|A|6</code> afin de forcer ce motif-là à suivre le sens de gauche à droite.
+            </p>
+            <img src="../images/bidi-solution.svg" alt="" />
+        </div>
+
+        <!--
+            <h4 style="text-align: center; margin-bottom: 0; padding-bottom: 0;">التحميل و التثبيت</h4> 
+            <p style="text-align: center;">
+            <a href="../dist/azerty_arab.json">json</a>
+            | <a href="../dist/azerty_arab.keylayout">keylayout</a>
+            | <a href="../dist/azerty_arab.klc">klc</a>
+            | <a href="../dist/azerty_arab.rc">rc</a>
+            | <a href="../dist/azerty_arab.c">c</a>
+            | <a href="../dist/azerty_arab.xkb_keymap">xkb_keymap</a>
+            | <a href="../dist/azerty_arab.xkb_symbols">xkb_symbols</a>
+            | <a href="../dist/azerty_arab.svg">svg</a>
+            </p>
+        -->
+
+        <p id="footer" style="text-align: center;">
+        <a href="https://github.com/FauveNoir/azerty-arab"><img width="100px" src="../images/octocat.svg" alt="🐙🐱" /></a>
+        </p>
+    </body>
+</html>

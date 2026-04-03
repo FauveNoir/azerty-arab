@@ -148,7 +148,7 @@ C’est alors que, grâce au caractères de contrôle bidirectionnels `LRI` (for
 ## Installation
 ### Linux
 #### Installation globale en tant que root
-Cette façon est de loin la plus simple et la plus stable façon de procéder à l’installation de l’AZERTY arabe mais exige de disposer des privillèges de super-utilisateurs.
+Cette façon est de loin la plus simple et la plus stable façon de procéder à l’installation de l’AZERTY arabe mais exige de disposer des privilèges de super-utilisateurs.
 ```
 sudo cp -i /usr/share/X11/xkb/symbols/ar /usr/share/X11/xkb/symbols/ar.bak
 sudo curl https://fauvenoir.github.io/azerty-arab/dist/azerty_arab.xkb_symbols >> /usr/share/X11/xkb/symbols/ar
