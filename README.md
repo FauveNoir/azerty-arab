@@ -27,7 +27,7 @@
 ```
 
 # ازرتي عربي
-الأزرتي العربي هو استبدال صوتي لـAZARTY بأحرف الأبجدية العربية.
+الأزرتي العربي هو استبدال صوتي لـAZERTY بأحرف الأبجدية العربية.
 
 يعد تخطيط لوحة المفاتيح هذا مفيدًا بشكل خاص للمستخدمين المعتادين على AZERTY الراغبين في الكتابة بالأحرف العربية.
 
@@ -70,7 +70,7 @@
 ---
 
 # AZERTY arabe
-L’AZERTY arabe est une substitution phonétique de l’AZARTY par les lettres de l’alphabet arabe.
+L’AZERTY arabe est une substitution phonétique de l’AZERTY par les lettres de l’alphabet arabe.
 
 Cette disposition de clavier est particulièrement utile aux utilisateurs habitués à l’AZERTY souhaitant écrire avec des lettres arabes.
 
