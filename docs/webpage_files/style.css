@@ -475,3 +475,9 @@ html[dir="rtl"] .central-illustraton > table
 {
     text-align: right;
 }
+
+#language-selector
+{
+position: fixed;
+  top: 20px;
+}
