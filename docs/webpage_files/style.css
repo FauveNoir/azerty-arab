@@ -478,6 +478,17 @@ html[dir="rtl"] .central-illustraton > table
 
 #language-selector
 {
-position: fixed;
+    position: fixed;
   top: 20px;
+}
+
+.todo
+{
+    list-style: none;
+}
+
+.todo
+{
+    padding-left: 0;
+    margin-left: 0;
 }
