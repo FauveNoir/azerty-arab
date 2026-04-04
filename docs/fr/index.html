@@ -325,17 +325,17 @@ Il a été procédé autant que faire ce peu à une superposition sémantique la
             <p>
             Supposons que vous souhaitiez écrire un texte ressemblant à ceci :
             </p>
-            <img src="../images/bidi-expected.svg" alt="" />
+            <img src="../images/bidi-LRI-expected.svg" alt="" />
 
             <p>
             Vous obtiendrez probablement un résultat sens dessus dessous comme celui-ci :
             </p>
-            <img src="../images/bidi-obtain.svg" alt="" />
+            <img src="../images/bidi-LRI-obtain.svg" alt="" />
 
             <p>
             Grâce aux caractères de contrôle bidirectionnels <code>LRI</code> en saisissant <kbd>Altgr</kbd>+<kbd>خ</kbd> (forcer l’écriture locale de gauche à droite) et <code>PDI</code> en saisissant <kbd>Altgr</kbd>+<kbd>ك</kbd> (fin de bloc d’effet et retour au sens d’écriture original de la phrase), vous pouvez encadrer le bloc contenant le motif <code>12345|A|6</code> afin de forcer ce motif-là à suivre le sens de gauche à droite.
             </p>
-            <img src="../images/bidi-solution.svg" alt="" />
+            <img src="../images/bidi-LRI-solution.svg" alt="" />
 
             <p>D’ailleurs, vous pouvez même voir à même le navigateur le résultat « رقم لوحة الترخيص هو ⁦12345|A|6⁩ أضن ».</p>
 
