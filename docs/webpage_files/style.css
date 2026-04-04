@@ -513,3 +513,13 @@ h6
     font-size: 1.3em;
     margin-bottom: 0;
 }
+
+dt
+{
+    font-weight: bold;
+}
+
+dd + dt
+{
+    margin-top: 0.3em;
+}
