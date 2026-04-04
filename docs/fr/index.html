@@ -320,10 +320,53 @@ Il a été procédé autant que faire ce peu à une superposition sémantique la
             </div>
 
             <h5>Forcer le sens de droite à gauche</h5>
+            <p>
+            D’autre part, supposons que vous souhaitiez écrire un texte tout en arabe, donc totalement de droite à gauche, ressemblant à ceci :
+            </p>
+            <img src="../images/bidi-RLI-expected.svg" alt="" />
+
+            <p>
+            Vous obtiendrez probablement un résultat sens dessus dessous comme celui-ci :
+            </p>
+            <img src="../images/bidi-RLI-obtain.svg" alt="" />
+
+            <!--
+            <h6>Explications</h6>
+            <p>
+            Ce qu’il faut comprendre pour résoudre ce problème est que plusieurs choses sont en jeu et qui perturbent l’algorithme de disposition des symboles de votre interface.
+            </p>
+            <p>
+            Pour la première phrase « أرسل لي هاتين الوثيقتين: », l’introduction du  symbole <i>:</i> (deux-points) fait que l’algorithme interprète l’ensemble de la phrase comme étant d’une langue devant s’écrire de gauche à droite, et place donc le deux point en fin de phrase, autrement dit complètement à droite.
+            </p>
+            <p>
+            Pour les deux phrases suivantes que sont « 1. رخصة القيادة الخاصة بك؛ » quelque chose d’assez similaire a lieux. L’introduction aussi bien des symboles <i>1</i> (chiffre un) que de <i>.</i> (point) entraine l’interprétation de la phrase entière comme devant s’écrire de gauche à droite. Ce qui signifie dans ce cas que la première portion de la phrase, autrement dit la séquence « 1. » doit se trouver en début de phrase c’est à dire complètement à gauche. Le reste de la phrase écrit en caractères arabes seuls est vu comme étant une portion de texte devant s’écrire localement de droite à gauche.
+            </p>
+            -->
+
+            <h6>Solution</h6>
+            <p>
+            Ce qu’il vous faut alors c’est d’indiquer que la phrase entière doit s’écrire de droite à gauche, quelques soient les interprétations de l’algorithme.
+            Or, grâce aux caractères de contrôle bidirectionnels <code>RLI</code> en saisissant <kbd>Altgr</kbd>+<kbd>م</kbd> (forcer l’écriture locale de droite à gauche) en début de phrase, vous indiquerez à l’algorithme que la phrase entière est à formater de droite à gauche.
+            </p>
+            <p>
+            Vous obtiendrez probablement un résultat sens dessus dessous comme celui-ci :
+            </p>
+            <img src="../images/bidi-RLI-solution.svg" alt="" />
+
+            <p>D’ailleurs, vous pouvez même voir à même le navigateur le résultat :</p>
+            <blockquote>
+                ⁧أرسل لي هاتين الوثيقتين:</br>
+                ⁧1. رخصة القيادة الخاصة بك؛</br>
+                ⁧2. بطاقة الهوية الخاصة بك.
+            </blockquote>
+
+            <p>
+            Notez que sur la citation ci-dessus, je n’ai pas réglé l’alignement vers la droite afin d’illustre qu’il ne s’agit pas d’une question d’alignement comme souvent cru. Le texte en arabe est bien aligné vers la gauche, et pourtant le sens des lettres et symboles est toujours dans le bon ordre.
+            </p>
 
             <h5>Forcer le sens de gauche à droite</h5>
             <p>
-            Supposons que vous souhaitiez écrire un texte ressemblant à ceci :
+            D’autre part, supposons que vous souhaitiez écrire un texte ressemblant à ceci :
             </p>
             <img src="../images/bidi-LRI-expected.svg" alt="" />
 
