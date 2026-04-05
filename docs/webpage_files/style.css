@@ -523,3 +523,9 @@ dd + dt
 {
     margin-top: 0.3em;
 }
+
+.example
+{
+    background: #111;
+    padding: 10px;
+}
