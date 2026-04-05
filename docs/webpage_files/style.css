@@ -479,7 +479,11 @@ html[dir="rtl"] .central-illustraton > table
 #language-selector
 {
     position: fixed;
-  top: 20px;
+    background: #111;
+    top: 0px;
+    border-radius: 0 0 4px 4px;
+    display: block;
+    padding: 8px;
 }
 
 .todo
