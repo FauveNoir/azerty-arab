@@ -188,3 +188,9 @@ Téléchargez le fichier [`azerty_arab-user.exe`](https://fauvenoir.github.io/az
 2. Redémarrez votre système
 
 L’AZERTY arabe apparait alors dans la configuration « Langue et écriture » à l’onglet « Méthodes de saisie ».
+
+---
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
