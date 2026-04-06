@@ -23,11 +23,11 @@ xkb_keymap {
   // │ # ¶ │ " ١ │ « ٢ │ » ٣ │ ( ٤ │ ) ٥ │ ~ ٦ │ + ٧ │ - ٨ │ / ٩ │ * ٠ │ = ≠ │ ؉ \ ┃          ┃
   // │ $ – │ 1 — │ 2 ﴾ │ 3 ﴿ │ 4 < │ 5 > │ 6 @ │ 7 [ │ 8 ] │ 9 ÷ │ 0 × │ ° { │ ٪ } ┃ ⌫        ┃
   // ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
-  // ┃        ┃ آ   │     │     │ |   │ ة   │ ئ   │ ً   │ ٍ   │ ٌ   │     │ ّ   │     ┃       ┃
-  // ┃ ↹      ┃ ا ٱ │     │     │ ر غ │ ت ث │ ي ى │ َ   │ ِ   │ ُ   │     │ ء ' │   " ┃       ┃
+  // ┃        ┃ آ   │     │     │ |   │ ة   │ ئ   │ ً   │ ٍ   │ ٌ   │     │ ّ   │ ﷿   ┃       ┃
+  // ┃ ↹      ┃ ا ٱ │     │     │ ر غ │ ت ث │ ي ى │ َ   │ ِ   │ ُ   │     │ ء ' │ ع " ┃       ┃
   // ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
-  // ┃         ┃ ڧ   │     │ ۞   │ ڢ   │ گ   │ €   │ ☪   │     │     │ ⚝   │ ۩   │ ﷺ   ┃      ┃
-  // ┃ ⇬       ┃ ق   │     │ د ذ │ ف ڡ │ ڭ   │ ه ح │ ج ⁦ │ ك ⁩ │ ل ⁨ │ م ⁧ │ ط ظ │ ص ض ┃      ┃
+  // ┃         ┃ ڧ   │ ﷾   │ ۞   │ ڢ   │ گ   │ €   │ ﷻ ☪ │     │     │ ⚝   │ ۩   │ ﷺ   ┃      ┃
+  // ┃ ⇬       ┃ ق   │ س   │ د ذ │ ف ڡ │ ڭ   │ ه ح │ ج ⁦ │ ك ⁩ │ ل ⁨ │ م ⁧ │ ط ظ │ ص ض ┃      ┃
   // ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
   // ┃      ┃ إ   │ ؤ   │     │     │ ڥ   │     │     │ ؟   │ .   │     │     ┃               ┃
   // ┃ ⇧    ┃ أ   │ و & │     │     │ ڤ   │   ٮ │     │ ،   │ ؛ ۝ │     │     ┃ ⇧             ┃
@@ -71,12 +71,12 @@ xkb_keymap {
 
     // Letters, second row
     key <AC01> {[ U0642           , U06A7           , VoidSymbol      , VoidSymbol      ]}; // ق ڧ
-    key <AC02> {[ U0633           , VoidSymbol      , VoidSymbol      , VoidSymbol      ]}; // س
+    key <AC02> {[ U0633           , UFDFE           , VoidSymbol      , VoidSymbol      ]}; // س ﷾
     key <AC03> {[ U062F           , U06DE           , U0630           , VoidSymbol      ]}; // د ۞ ذ
     key <AC04> {[ U0641           , U06A2           , U06A1           , VoidSymbol      ]}; // ف ڢ ڡ
     key <AC05> {[ U06AD           , U06AF           , VoidSymbol      , VoidSymbol      ]}; // ڭ گ
     key <AC06> {[ U0647           , EuroSign        , U062D           , VoidSymbol      ]}; // ه € ح
-    key <AC07> {[ U062C           , U262A           , U2066           , VoidSymbol      ]}; // ج ☪ ⁦
+    key <AC07> {[ U062C           , UFDFB           , U2066           , U262A           ]}; // ج ﷻ ⁦ ☪
     key <AC08> {[ U0643           , nobreakspace    , U2069           , VoidSymbol      ]}; // ك   ⁩
     key <AC09> {[ U0644           , nobreakspace    , U2068           , VoidSymbol      ]}; // ل   ⁨
     key <AC10> {[ U0645           , U269D           , U2067           , VoidSymbol      ]}; // م ⚝ ⁧
@@ -98,7 +98,7 @@ xkb_keymap {
     key <AE12> {[ U066A           , U0609           , braceright      , backslash       ]}; // ٪ ؉ } \ 
     key <AE13> {[ VoidSymbol      , VoidSymbol      , VoidSymbol      , VoidSymbol      ]}; //
     key <AD11> {[ U0621           , U0651           , apostrophe      , VoidSymbol      ]}; // ء ّ '
-    key <AD12> {[ U0639           , VoidSymbol      , quotedbl        , VoidSymbol      ]}; // ع   "
+    key <AD12> {[ U0639           , UFDFF           , quotedbl        , VoidSymbol      ]}; // ع ﷿ "
     key <AC11> {[ U0637           , U06E9           , U0638           , VoidSymbol      ]}; // ط ۩ ظ
     key <AB11> {[ VoidSymbol      , VoidSymbol      , VoidSymbol      , VoidSymbol      ]}; //
     key <TLDE> {[ dollar          , numbersign      , endash          , paragraph       ]}; // $ # – ¶

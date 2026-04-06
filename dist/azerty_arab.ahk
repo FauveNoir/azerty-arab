@@ -183,6 +183,7 @@ SendKey(base, deadkeymap) {
 +SC1e::SendKey("U+06a7", {}) ; ڧ
 
  SC1f::SendKey("U+0633", {}) ; س
++SC1f::SendKey("U+fdfe", {}) ; ﷾
 
  SC20::SendKey("U+062f", {}) ; د
 +SC20::SendKey("U+06de", {}) ; ۞
@@ -197,7 +198,7 @@ SendKey(base, deadkeymap) {
 +SC23::SendKey("U+20ac", {}) ; €
 
  SC24::SendKey("U+062c", {}) ; ج
-+SC24::SendKey("U+262a", {}) ; ☪
++SC24::SendKey("U+fdfb", {}) ; ﷻ
 
  SC25::SendKey("U+0643", {}) ; ك
 +SC25::SendKey("U+00a0", {}) ;  
@@ -246,6 +247,7 @@ SendKey(base, deadkeymap) {
 +SC1a::SendKey("U+0651", {}) ; ّ
 
  SC1b::SendKey("U+0639", {}) ; ع
++SC1b::SendKey("U+fdff", {}) ; ﷿
 
  SC28::SendKey("U+0637", {}) ; ط
 +SC28::SendKey("U+06e9", {}) ; ۩
@@ -320,6 +322,7 @@ SendKey(base, deadkeymap) {
  <^>!SC23::SendKey("U+062d", {}) ; ح
 
  <^>!SC24::SendKey("U+2066", {}) ; ⁦
+<^>!+SC24::SendKey("U+262a", {}) ; ☪
 
  <^>!SC25::SendKey("U+2069", {}) ; ⁩
 
