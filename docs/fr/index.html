@@ -352,14 +352,20 @@ Il a été procédé autant que faire ce peu à une superposition sémantique la
 
             <h5>Forcer le sens de droite à gauche</h5>
             <p>
-            Supposons que vous souhaitiez écrire un texte tout en arabe, donc totalement de droite à gauche, mais comportant divers symboles ou chiffres, ressemblant à ceci :
+            Supposons que vous souhaitiez écrire un texte tout en arabe, donc totalement de droite à gauche, et comportant divers symboles, notamment le deux-points « : » et une numérotation avec des chiffres en début de phrase.
             </p>
+            <!--
             <img src="../images/bidi-RLI-expected.svg" alt=""  class="example" />
+            -->
 
             <p>
             Vous obtiendrez probablement un résultat sens dessus dessous comme celui-ci :
             </p>
             <img src="../images/bidi-RLI-obtain.svg" alt="" class="example" />
+
+            <p>
+            Cela peut dépendre des interfaces, des systèmes, et des logiciels, mais souvent le deux-points que vous aurez inscrit en fin de ligne (à gauche), se retrouve en début de ligne (à droite). Tandis qu’à l’inverse les chiffres d’énumération sensés se trouver en début de ligne (à droite), se retrouvent en fin de ligne (à gauche).
+            </p>
 
             <!--
             <h6>Explications</h6>
@@ -397,14 +403,20 @@ Il a été procédé autant que faire ce peu à une superposition sémantique la
 
             <h5>Forcer le sens de gauche à droite</h5>
             <p>
-            D’autre part, supposons que vous souhaitiez écrire un texte en arabe, mais contenant une portion devant localement s’écrire de gauche, à droite ressemblant à ceci :
+            D’autre part, supposons que vous souhaitiez écrire un texte en arabe, mais contenant une portion devant localement s’écrire de gauche à droite (comme une plaque minéralogique, une adresse de courriel, ou tout autre texte devant contenir des symboles latins, cyrilliques, ou grecs) ressemblant à ceci :
             </p>
+            <!--
             <img src="../images/bidi-LRI-expected.svg" alt="" class="example" />
+            -->
 
             <p>
             Vous obtiendrez probablement un résultat sens dessus dessous comme celui-ci :
             </p>
             <img src="../images/bidi-LRI-obtain.svg" alt="" class="example" />
+
+            <p>
+            Notez comme dans cet exemple le matricule de la plaque minéralogique devant s’écrire « 12345|A|6 » se retrouve dans un sens non souhaité, et ce quelques soient les efforts que vous déployez pour jongler avec.
+            </p>
 
             <p>
             Grâce aux caractères de contrôle bidirectionnels <code>LRI</code> en saisissant <kbd>Altgr</kbd>+<kbd>خ</kbd> (forcer l’écriture locale de gauche à droite) et <code>PDI</code> en saisissant <kbd>Altgr</kbd>+<kbd>ك</kbd> (fin de bloc d’effet et retour au sens d’écriture original de la phrase), vous pouvez encadrer le bloc contenant le motif <code>12345|A|6</code> afin de forcer ce motif-là à suivre le sens de gauche à droite.
