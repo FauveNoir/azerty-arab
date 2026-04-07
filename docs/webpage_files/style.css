@@ -533,3 +533,16 @@ dd + dt
     background: #111;
     padding: 10px;
 }
+
+#ktouch-logo
+{
+   float: right; /* Floats the image to the left, text wraps on the right */
+   margin-right: 0px; /* Adds space between the image and the text */
+   margin-left: 15px; /* Adds space between the image and the text */
+   max-width: 200px;
+}
+
+.manipulation-illustration
+{
+    max-width: 100%;
+}
