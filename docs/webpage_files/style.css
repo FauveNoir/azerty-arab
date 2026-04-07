@@ -534,14 +534,19 @@ dd + dt
     padding: 10px;
 }
 
-#ktouch-logo
+
+html[dir="ltr"] #ktouch-logo
 {
    float: right; /* Floats the image to the left, text wraps on the right */
    margin-right: 0px; /* Adds space between the image and the text */
-   margin-left: 15px; /* Adds space between the image and the text */
    max-width: 200px;
 }
 
+html[dir="rtl"] #ktouch-logo
+{
+   float: left; /* Floats the image to the left, text wraps on the right */
+   max-width: 200px;
+}
 .manipulation-illustration
 {
     max-width: 100%;
