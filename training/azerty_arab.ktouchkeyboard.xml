@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<keyboardLayout>
+ <id>{343b8849-3bdd-4461-8317-9fab76ee5dc1}</id>
+ <title>ازرتي عربي — AZERTY arabe</title>
+ <name>azerty_arab</name>
+ <width>1480</width>
+ <height>480</height>
+ <keys>
+  <key left="180" top="200" width="80" height="80" fingerIndex="0">
+   <char modifier="right_shift" position="topLeft">ڧ</char>
+   <char position="bottomLeft">ق</char>
+  </key>
+  <key left="280" top="200" width="80" height="80" fingerIndex="1">
+   <char modifier="right_shift" position="topLeft">﷾</char>
+   <char position="bottomLeft">س</char>
+  </key>
+  <key left="380" top="200" width="80" height="80" fingerIndex="2">
+   <char modifier="right_shift" position="topLeft">۞</char>
+   <char position="bottomLeft">د</char>
+   <char modifier="altgr" position="bottomRight">ذ</char>
+  </key>
+  <key left="480" top="200" hasHapticMarker="true" width="80" height="80" fingerIndex="3">
+   <char modifier="right_shift" position="topLeft">ڢ</char>
+   <char position="bottomLeft">ف</char>
+   <char modifier="altgr" position="bottomRight">ڡ</char>
+  </key>
+  <key left="780" top="200" hasHapticMarker="true" width="80" height="80" fingerIndex="4">
+   <char modifier="left_shift" position="topLeft">ﷻ</char>
+   <char position="bottomLeft">ج</char>
+   <char modifier="altgr" position="bottomRight">⁦</char>
+  </key>
+  <key left="880" top="200" width="80" height="80" fingerIndex="5">
+   <char position="bottomLeft">ك</char>
+   <char modifier="altgr" position="topRight"><![CDATA[ ]]></char>
+  </key>
+  <key left="980" top="200" width="80" height="80" fingerIndex="6">
+   <char position="bottomLeft">ل</char>
+   <char modifier="altgr" position="bottomRight"><![CDATA[ ]]></char>
+  </key>
+  <key left="1080" top="200" width="80" height="80" fingerIndex="7">
+   <char modifier="left_shift" position="topLeft">⚝</char>
+   <char position="bottomLeft">م</char>
+   <char modifier="altgr" position="bottomRight">⁧</char>
+  </key>
+  <key left="0" top="0" width="80" height="80" fingerIndex="0">
+   <char position="bottomLeft">$</char>
+   <char modifier="right_shift" position="topLeft">#</char>
+   <char modifier="altgr" position="bottomRight">–</char>
+  </key>
+  <key left="100" top="0" width="80" height="80" fingerIndex="0">
+   <char modifier="right_shift" position="topLeft">"</char>
+   <char position="bottomLeft">1</char>
+   <char modifier="altgr" position="bottomRight">—</char>
+   <char modifier="altgr_shift" position="topRight">١</char>
+  </key>
+  <key left="200" top="0" width="80" height="80" fingerIndex="1">
+   <char modifier="right_shift" position="topLeft">«</char>
+   <char position="bottomLeft">2</char>
+   <char modifier="altgr" position="bottomRight">﴾</char>
+   <char modifier="altgr_shift" position="topRight">٢</char>
+  </key>
+  <key left="300" top="0" width="80" height="80" fingerIndex="2">
+   <char modifier="right_shift" position="topLeft">»</char>
+   <char position="bottomLeft">3</char>
+   <char modifier="altgr" position="bottomRight">﴿</char>
+   <char modifier="altgr_shift" position="topRight">٣</char>
+  </key>
+  <key left="400" top="0" width="80" height="80" fingerIndex="3">
+   <char modifier="right_shift" position="topLeft">(</char>
+   <char position="bottomLeft">4</char>
+   <char modifier="altgr" position="bottomRight">&lt;</char>
+   <char modifier="altgr_shift" position="topRight">٤</char>
+  </key>
+  <key left="500" top="0" width="80" height="80" fingerIndex="3">
+   <char modifier="right_shift" position="topLeft">)</char>
+   <char position="bottomLeft">5</char>
+   <char modifier="altgr" position="bottomRight">></char>
+   <char modifier="altgr_shift" position="topRight">٥</char>
+  </key>
+  <key left="600" top="0" width="80" height="80" fingerIndex="4">
+   <char modifier="left_shift" position="topLeft">~</char>
+   <char position="bottomLeft">6</char>
+   <char modifier="altgr" position="bottomRight">@</char>
+   <char modifier="altgr_shift" position="topRight">٦</char>
+  </key>
+  <key left="700" top="0" width="80" height="80" fingerIndex="4">
+   <char modifier="left_shift" position="topLeft">+</char>
+   <char position="bottomLeft">7</char>
+   <char modifier="altgr" position="bottomRight">[</char>
+   <char modifier="altgr_shift" position="topRight">٧</char>
+  </key>
+  <key left="800" top="0" width="80" height="80" fingerIndex="5">
+   <char modifier="left_shift" position="topLeft">-</char>
+   <char position="bottomLeft">8</char>
+   <char modifier="altgr" position="bottomRight">]</char>
+   <char modifier="altgr_shift" position="topRight">٨</char>
+  </key>
+  <key left="900" top="0" width="80" height="80" fingerIndex="6">
+   <char modifier="left_shift" position="topLeft">/</char>
+   <char position="bottomLeft">9</char>
+   <char modifier="altgr" position="bottomRight">÷</char>
+   <char modifier="altgr_shift" position="topRight">٩</char>
+  </key>
+  <key left="1000" top="0" width="80" height="80" fingerIndex="7">
+   <char modifier="left_shift" position="topLeft">*</char>
+   <char position="bottomLeft">0</char>
+   <char modifier="altgr" position="bottomRight">×</char>
+   <char modifier="altgr_shift" position="topRight">٠</char>
+  </key>
+  <key left="1100" top="0" width="80" height="80" fingerIndex="7">
+   <char modifier="left_shift" position="topLeft">=</char>
+   <char position="bottomLeft">°</char>
+   <char modifier="altgr" position="bottomRight">{</char>
+   <char modifier="altgr_shift" position="topRight">≠</char>
+  </key>
+  <key left="1200" top="0" width="80" height="80" fingerIndex="7">
+   <char modifier="left_shift" position="topLeft">؉</char>
+   <char position="bottomLeft">٪</char>
+   <char modifier="altgr" position="bottomRight">}</char>
+  </key>
+  <key left="150" top="100" width="80" height="80" fingerIndex="0">
+   <char modifier="right_shift" position="topLeft">آ</char>
+   <char position="bottomLeft">ا</char>
+   <char modifier="altgr" position="bottomRight">ٱ</char>
+  </key>
+  <key left="350" top="100" width="80" height="80" fingerIndex="2">
+   <char position="bottomLeft">ْ</char>
+  </key>
+  <key left="450" top="100" width="80" height="80" fingerIndex="3">
+   <char position="bottomLeft">ر</char>
+   <char modifier="altgr" position="bottomRight">غ</char>
+  </key>
+  <key left="550" top="100" width="80" height="80" fingerIndex="3">
+   <char modifier="right_shift" position="topLeft">ة</char>
+   <char position="bottomLeft">ت</char>
+   <char modifier="altgr" position="bottomRight">ث</char>
+  </key>
+  <key left="650" top="100" width="80" height="80" fingerIndex="4">
+   <char modifier="left_shift" position="bottomRight">ى</char>
+   <char position="bottomLeft">ي</char>
+   <char modifier="left_shift" position="topLeft">ئ</char>
+  </key>
+  <key left="750" top="100" width="80" height="80" fingerIndex="4">
+   <char modifier="left_shift" position="topLeft">ً</char>
+   <char position="bottomLeft">َ</char>
+  </key>
+  <key left="850" top="100" width="80" height="80" fingerIndex="5">
+   <char modifier="left_shift" position="topLeft">ٍ</char>
+   <char position="bottomLeft">ِ</char>
+  </key>
+  <key left="950" top="100" width="80" height="80" fingerIndex="6">
+   <char modifier="left_shift" position="topLeft">ٌ</char>
+   <char position="bottomLeft">ُ</char>
+  </key>
+  <key left="1050" top="100" width="80" height="80" fingerIndex="7">
+   <char position="bottomLeft">پ</char>
+  </key>
+  <key left="1150" top="100" width="80" height="80" fingerIndex="7">
+   <char modifier="left_shift" position="topLeft">ّ</char>
+   <char position="bottomLeft">ء</char>
+   <char modifier="altgr" position="bottomRight">'</char>
+  </key>
+  <key left="1250" top="100" width="80" height="80" fingerIndex="7">
+   <char modifier="left_shift" position="topLeft">﷿</char>
+   <char position="bottomLeft">ع</char>
+   <char modifier="altgr" position="bottomRight">"</char>
+  </key>
+  <key left="580" top="200" width="80" height="80" fingerIndex="3">
+   <char modifier="right_shift" position="topLeft">گ</char>
+   <char position="bottomLeft">ڭ</char>
+  </key>
+  <key left="680" top="200" width="80" height="80" fingerIndex="4">
+   <char modifier="left_shift" position="topLeft">€</char>
+   <char position="bottomLeft">ه</char>
+   <char modifier="altgr" position="bottomRight">ح</char>
+  </key>
+  <key left="1180" top="200" width="80" height="80" fingerIndex="7">
+   <char modifier="left_shift" position="topLeft">۩</char>
+   <char position="bottomLeft">ط</char>
+   <char modifier="altgr" position="bottomRight">ظ</char>
+  </key>
+  <key left="1280" top="200" width="80" height="80" fingerIndex="7">
+   <char modifier="left_shift" position="topLeft">ﷺ</char>
+   <char position="bottomLeft">ص</char>
+   <char modifier="altgr" position="bottomLeft">ض</char>
+  </key>
+  <key left="130" top="300" width="80" height="80" fingerIndex="0">
+   <char modifier="right_shift" position="topLeft">إ</char>
+   <char position="bottomLeft">أ</char>
+  </key>
+  <key left="230" top="300" width="80" height="80" fingerIndex="0">
+   <char modifier="right_shift" position="topLeft">ؤ</char>
+   <char position="bottomLeft">و</char>
+   <char modifier="a" position="bottomRight">&amp;</char>
+  </key>
+  <key left="330" top="300" width="80" height="80" fingerIndex="1">
+   <char position="bottomLeft">خ</char>
+  </key>
+  <key left="430" top="300" width="80" height="80" fingerIndex="2">
+   <char position="bottomLeft">ش</char>
+  </key>
+  <key left="530" top="300" width="80" height="80" fingerIndex="3">
+   <char modifier="right_shift" position="topLeft">ڥ</char>
+   <char position="bottomLeft">ڤ</char>
+  </key>
+  <key left="630" top="300" width="80" height="80" fingerIndex="3">
+   <char modifier="right_shift" position="topLeft">ٮ</char>
+   <char position="bottomLeft">ب</char>
+  </key>
+  <key left="730" top="300" width="80" height="80" fingerIndex="4">
+   <char position="bottomLeft">ن</char>
+  </key>
+  <key left="830" top="300" width="80" height="80" fingerIndex="4">
+   <char modifier="left_shift" position="topLeft">؟</char>
+   <char position="bottomLeft">،</char>
+   <char position="bottomRight">۝</char>
+  </key>
+  <key left="930" top="300" width="80" height="80" fingerIndex="5">
+   <char modifier="left_shift" position="topLeft">.</char>
+   <char position="bottomLeft">؛</char>
+   <char modifier="altgr" position="bottomRight">؝</char>
+  </key>
+  <key left="1030" top="300" width="80" height="80" fingerIndex="6">
+   <char modifier="left_shift" position="topLeft">؞</char>
+   <char position="bottomLeft">:</char>
+   <char modifier="altgr" position="topRight">…</char>
+  </key>
+  <key left="1130" top="300" width="80" height="80" fingerIndex="7">
+   <char position="bottomLeft">!</char>
+  </key>
+  <key left="250" top="100" width="80" height="80" fingerIndex="1">
+   <char position="bottomLeft">ز</char>
+  </key>
+  <specialKey left="0" top="100" type="tab" width="130" height="80"/>
+  <specialKey left="1380" top="100" type="return" width="100" height="180"/>
+  <specialKey left="1230" top="300" type="shift" width="250" height="80" modifierId="right_shift"/>
+  <specialKey left="1200" top="400" type="other" label="Alt Gr" width="130" height="80" modifierId="altgr"/>
+  <specialKey left="1350" top="400" type="other" label="Ctrl" width="130" height="80"/>
+  <specialKey left="150" top="400" type="other" label="Alt" width="130" height="80"/>
+  <specialKey left="0" top="400" type="other" label="Ctrl" width="130" height="80"/>
+  <specialKey left="300" top="400" type="space" width="880" height="80"/>
+  <specialKey left="0" top="300" type="shift" width="110" height="80" modifierId="left_shift"/>
+  <specialKey left="0" top="200" type="capslock" width="160" height="80"/>
+  <specialKey left="1300" top="0" type="backspace" width="180" height="80"/>
+ </keys>
+</keyboardLayout>

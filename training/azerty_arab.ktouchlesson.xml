@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<course>
+ <id>{6fa99dd5-d7a1-4c61-9220-763f43253981}</id>
+ <title>ازرتي عربي — AZERTY arabe</title>
+ <description>الازرتي العربي هو تخطيط لوحة مفاتيح للغة العربية مبنية على مبدأ التراكب الصوتي. أي يتم ترتيب الحروف العربية بحيت كل حرف يقع على المفتاح الذي يتضمن، في التخطيط لوحة المفاتيح AZERTY الأصلي، على الحرف اللاتيني الأقرب صوتيًا منه.
+على سبيل المثال، الحرف ا موجود على نفس مفتاح A، وب موجود على نفس مفتاح B، وك موجود على نفس مفتاح K، وما إلى ذلك.
+https://fauvenoir.github.io/azerty-arab
+
+’AZERTY arabe est une disposition de clavier pour saisir l’abjad arabe basée sur le principe de superposition phonétique. C’est-à-dire que les lettres arabes sont disposées de manière à ce que chaque lettre se retrouve sur la touche qui, dans la disposition originale du clavier AZERTY, contient la lettre latine qui en est la plus proche phonétiquement. De sorte à ce qu’une personne habituée à l’AZERTY original puisse retrouver intuitivement les lettres arabes avec le moins d’effort possible.
+Par exemple, la lettre ا alif est sur la même touche que A, ب ba’ est sur la même touche que B, ك kaf est sur la même touche que K, etc.
+https://fauvenoir.github.io/azerty-arab/fr/</description>
+ <keyboardLayout>be</keyboardLayout>
+ <lessons>
+  <lesson>
+   <id>{befe3ca4-9bf5-41dc-9574-afa3c1c6b5f6}</id>
+   <title>السَّبَّابَةُ وَخنصر عَلَى سَطْرِ الاسْتِرَاحَة ف ق ج ل (indexes et auriculaires au repos)</title>
+   <newCharacters>ف ق ج م</newCharacters>
+   <text>فق فق فق فق قف قف قف قف جم جم جم جم مج مج مج جم جم مف فج فمق
+قمج جقف قفج فمقج جمقف مقفج فجمق قمجف جم فمق قف قمجم 
+قمج جقف قفج فمقج جمقف مقفج فجمق قمجف جم فمق قف قمجم 
+</text>
+  </lesson>
+  <lesson>
+   <id>{b292cbca-973d-44b6-b163-c53f420c9db2}</id>
+   <title>الوُسطى على سطر الاستراحة (majeurs au repos)</title>
+   <newCharacters>د ك</newCharacters>
+   <text>دك دك دك كد كد دك دك دك دك كد كد دك دك دك  جد مك فد قد جمد 
+دمك كقد دكج مجقف فدقك  دكك كدق فقدك قفم فمق
+دمك كقد دكج مجقف فدقك  دكك كدق فقدك قفم فمق
+</text>
+  </lesson>
+  <lesson>
+   <id>{4ee3c8b1-cb14-40e3-9d92-f9e1f0a2c437}</id>
+   <title>البنصر على سطر الاستراحة (annulaires au repos)</title>
+   <newCharacters>س ل</newCharacters>
+   <text>سل سل سل لس لس لس لس سل سل لس لس لس سل سل سل لس لس سل لس سكل
+سدل دسلج قلسك سلل لسس سلس لسل لجس جلس فقدك كفلق سلد
+</text>
+  </lesson>
+  <lesson>
+   <id>{4ac67483-174b-415f-9479-482c65feb7e3}</id>
+   <title>السَّبابة والبِنصر اليسرى على السطر العلوي (indexe gauche et auriculaire sur la ligne haute)</title>
+   <newCharacters>ر ا ت ي ء ز</newCharacters>
+   <text>رء رء رء رء از از از از تي تي تي تي تي زر زر زر زر اء اء اء 
+ير تز ير تز ير تز را زي را زي را زي ءت ار زي تر ءر اي رز تا
+رءاز تيزر اءير تزرا زءتي اريت زراء تيرز ءارت يزرء
+رءازتي زرءاتي اءيرتز تزراءي زءتيار اريتزر زراءتي
+
+رءازتي راءتي زاريت تيراز زاءرت سمدك فقلج مرست زاءتي
+تيراز رءاتي زاءرت سمدك فقلج مرست زاريت راءتي زءات</text>
+  </lesson>
+  <lesson>
+   <id>{ee3db602-3dfc-44da-b4f6-96672aca5296}</id>
+   <title>السَّبابة الوسطى على سطر الاستراحة وسطر العلوي (index et majeurs sur ligne de repos et ligne haute)</title>
+   <newCharacters>د ف ڭ ه ج ك ر ت ث ي ى
+</newCharacters>
+   <text>دفڭهجر تيثى دكرف جهمك رتفد يثى ركدج فهڭت رتيثى دفجك
+رهدف تيثى ركدف جهمك
+
+رتفد يثى ركدج فهڭت رتيثى دفجك رهدف تيثى ركدف جهمك دفڭهجر
+تيثى دكرف جهمك
+
+دكرف جهمك رتفد يثى ركدج فهڭت رتيثى دفجك رهدف تيثى ركدف
+جهمك دفڭهجر تيثى</text>
+  </lesson>
+  <lesson>
+   <id>{de1ed7e2-0f1f-4201-b11f-bc49333e6d31}</id>
+   <title>الخنصر الخارجي 1 (auriculaire extérieur 1)</title>
+   <newCharacters>ط ء أ إ</newCharacters>
+   <text>طءأد طءدأ طأءد طدءأ طءأد طءدأ طأءد طدءأ طءأد طءدأ
+طأءد طدءأ رتيء زدكف جملس طءأد طءدأ طأءد طدءأ
+
+طأءد طدءأ طءأد طءدأ طأءد طدءأ طءأد طءدأ طأءد طدءأ
+سلدك فقجم رتيء زدكف طأءد طدءأ طءأد طءدأ
+
+طدءأ طءأد طءدأ طأءد طدءأ طءأد طءدأ طأءد طدءأ طءأد
+رتيء زدكف جملس طدءأ طءأد طءدأ طأءد</text>
+  </lesson>
+  <lesson>
+   <id>{7b81a12f-2942-4d7b-8502-a4dae0f885b0}</id>
+   <title>الخنصر الخارجي 2 (auriculaire extérieur 2)</title>
+   <newCharacters>ص ع ض</newCharacters>
+   <text>صعض صعض ضعص عضص صعض صعض ضعص عضص صعض صعض ضعص عضص رتيء زدكف
+جملس صعض صعض ضعص عضص
+فقجم رتيء زدكف ضعص عضص صعض صعض
+
+عضص صعض صعض  رتيء زدكف جملس عضص صعض صعض ضعص</text>
+  </lesson>
+  <lesson>
+   <id>{7fc56e2e-39d7-4a69-a3d2-7149a6579dbe}</id>
+   <title>السَّبابة على السطر السفلي (Index sur la ligne basse)</title>
+   <newCharacters>ش ، ن ڤ ب
+</newCharacters>
+   <text>شڤبن شنبڤ ڤبن شنب ڤن بنش ڤن شڤن بن ڤش نبن شنڤ بن نڤش
+بن شڤن رتيء زدكف جملس
+
+نبش ڤن شڤن بن ڤش نبن شنڤ بن نڤش بن شڤن شڤبن شنبڤ
+ڤبن شنب ڤن بنش ڤن سلدك فقجم رتيء
+
+شنڤ بن نڤش بن شڤن شڤبن شنبڤ ڤبن شنب ڤن بنش ڤن شڤن
+بن ڤش نبن رتيء زدكف جملس
+</text>
+  </lesson>
+  <lesson>
+   <id>{9b243df1-1294-45c6-8e48-70d3b231286b}</id>
+   <title>الوُسطى والبِنصر على السطر السفلي (majeurs et annulaires sur la ligne basse)</title>
+   <newCharacters>وخ؛:</newCharacters>
+   <text>شڤبن شنبڤ ڤبن شونب ڤن بنش ڤون؛ شڤن وبن ڤش نبن شونڤ
+وبن نڤش وبن شڤن وخ رتيء زدكف جملس
+
+نبش ڤون شڤن وبن ڤش نبن شونڤ وبن نڤش وبن شڤن؛ شڤبن شنبڤ
+ڤبن شونب ڤن بنش ڤون وخ سلدك فقجم رتيء
+
+شونڤ وبن نڤش وبن شڤن؛ شڤبن شنبڤ ڤبن شونب ڤن بنش ڤون
+شڤن وبن ڤش نبن وخ رتيء زدكف جملس</text>
+  </lesson>
+  <lesson>
+   <id>{fbaa7c9e-2b8f-4186-9704-c0f8b9c0cd28}</id>
+   <title>اشكال الألف (Variations de  l’alif)</title>
+   <newCharacters>
+ا ٱ آ أ إ ى ئ</newCharacters>
+   <text>ابراهيم قال ان ادم قرأ اي في القران على مهل ثم راى فتى
+يقرا شيئا اخر فابتدا يسال عن معنى الاسماء والاراء
+</text>
+  </lesson>
+  <lesson>
+   <id>{ba5cecb5-e940-42ae-bc36-3751b3fd0859}</id>
+   <title>الحروف المركزية في AltGr (Lettres centrales en AltGr)</title>
+   <newCharacters>ثذحغى</newCharacters>
+   <text>شڤبن ثذحغى شنبڤ ڤبن شونب ڤن بنش ڤون؛ شڤن وبن ڤش نبن شونڤ
+وبن نڤش وبن شڤن وخ ثذحغى رتيء زدكف جملس
+
+نبش ڤون شڤن وبن ڤش نبن شونڤ وبن نڤش وبن شڤن؛ شڤبن شنبڤ
+ڤبن شونب ڤن بنش ڤون وخ ثذحغى سلدك فقجم رتيء
+
+شونڤ وبن نڤش وبن شڤن؛ شڤبن شنبڤ ڤبن شونب ڤن
+بنش ڤون شڤن وبن ڤش نبن وخ ثذحغى رتيء زدكف جملس</text>
+  </lesson>
+  <lesson>
+   <id>{a1673be9-a862-478c-881a-3a3163da0102}</id>
+   <title>الحروف في AltGr لذى الخِنصِر (Lettres en AltGr et auriculaire)</title>
+   <newCharacters>
+ظ ض ؤ</newCharacters>
+   <text>شڤبن ظض شنبڤ ڤبن شونب ڤن بنش ڤون؛ شڤن وبن ڤش نبن شونڤ
+وبن نڤش وبن شڤن وخ ظض رتيء زدكف جملس
+
+نبش ڤون شڤن وبن ڤش نبن شونڤ وبن نڤش وبن شڤن؛ شڤبن شنبڤ
+ڤبن شونب ڤن بنش ڤون وخ ظض سلدك فقجم رتيء
+
+شونڤ وبن نڤش وبن شڤن؛ شڤبن شنبڤ ڤبن شونب ڤن بنش ڤون شڤن
+وبن ڤش نبن وخ ظض رتيء زدكف جملس</text>
+  </lesson>
+  <lesson>
+   <id>{b993e599-b097-455d-85d7-8bbed30d5bf1}</id>
+   <title>ت ة (ta’ ouverte et ta’ bouclée)</title>
+   <newCharacters>تة</newCharacters>
+   <text>قررت فتاة طيبة أن تكتب رسالة في الحديقة ثم
+تنهي قراءة كتابها قبل الغروب
+</text>
+  </lesson>
+  <lesson>
+   <id>{74d633f1-6c6e-4dc6-b042-e25d781f92f3}</id>
+   <title>الحروف متشابهة (lettres connexes)</title>
+   <newCharacters>
+غ ث ح ظ ض ذ ى
+</newCharacters>
+   <text>شڤبن غثحظضذى شنبڤ ڤبن شونب ڤن بنش ڤون؛ شڤن وبن ڤش نبن شونڤ
+وبن نڤش وبن شڤن وخ غثحظضذى رتيء زدكف جملس
+
+نبش ڤون شڤن وبن ڤش نبن شونڤ وبن نڤش وبن شڤن؛ شڤبن شنبڤ
+ڤبن شونب ڤن بنش ڤون وخ غثحظضذى سلدك فقجم رتيء
+
+شونڤ وبن نڤش وبن شڤن؛ شڤبن شنبڤ ڤبن شونب ڤن بنش
+ڤون شڤن وبن ڤش نبن وخ غثحظضذى رتيء زدكف جملس</text>
+  </lesson>
+  <lesson>
+   <id>{8f69e86f-e5fe-478d-8c66-046c69df5a74}</id>
+   <title>الحروف الإضافية (lettres additionnelles)</title>
+   <newCharacters>
+پ ڤ ڭ
+</newCharacters>
+   <text>ڭال ليا ڭبل مانمشي ڤاكونس نپيپي عليه
+الى ما عندوش الصولد، داك راس الطنڭ
+</text>
+  </lesson>
+  <lesson>
+   <id>{eee8b3e3-a085-4561-bca6-6dc211f908f2}</id>
+   <title>عَلامَاتُ التَّرْقِيم (signes de ponctuation)</title>
+   <newCharacters>،؟؛.:!
+</newCharacters>
+   <text>في قصر الحمراء، حيث تتراقص الظلال على الجدران المزخرفة،
+تسمع همس التاريخ؛ وتتنفس روح الأندلس، فتشعر بعطر الزهور
+وأصوات الطبول، وتقول لنفسك: كم كانت الأزمان رائعة!
+</text>
+  </lesson>
+  <lesson>
+   <id>{5f441425-4074-4cb4-bc1d-d63bb40e828e}</id>
+   <title>الأرقام (chiffres)</title>
+   <newCharacters>0123456789٠١٢٣٤٥٦٦٧٨٩/</newCharacters>
+   <text>المغربي: تقدر تتصل بيا على 0612345678؟
+بالشكل المشرقي هكذا تكتب ٠٦١٢٣٤٥٦٧٨.
+
+المشرقِي: آه نعم، سأدونها! وعنوانك؟
+شارع 12، العمارة 492 الدار البيضاء
+ يصبح ١٢، العمارة ٤٩٢ الدار البيضاء.
+
+المغربي: تمام. نلتقي يوم 15/04/2026، أو ١٥/٠٤/٢٠٢٦ حسب
+طريقتك.</text>
+  </lesson>
+  <lesson>
+   <id>{cd2432b5-5235-43ba-ae58-c81e6bf91399}</id>
+   <title>الأقواس وعلامات الاقتباس والرموز التكميلية (Parenthèses, guillemets, et symboles complémentaires)</title>
+   <newCharacters>()
+«»[]{}</newCharacters>
+   <text>«ذهبت إلى السوق (لشراء التفاح)»
+
+[الكتاب الذي قرأته] كان ممتعا {حقا}
+
+قال المعلم: «انتبهوا (إلى التفاصيل) [وخاصة الأرقام]
+{في كل تمرين}»</text>
+  </lesson>
+  <lesson>
+   <id>{68b223e2-0e04-4115-8457-7cfe8e076f2f}</id>
+   <title>رموز الرياضيات (symboles mathématiques)</title>
+   <newCharacters>()&lt;>+-/*[]÷×°=≠٪؉ ؤ</newCharacters>
+   <text>قال لي الأستاذ (الذي تكلمت عنه من قبل): إذا كانت 2+م=4
+فإن 4-2=م، و م=2. كما إذا كانت م×3=6، فإن م=6÷3=2.
+كما يمكن لك كتابتها: م*3=6.
+ومن الطبيعي أن 2&lt;3، كما أن 2>1، و إذا كانت م>ن، فمن
+المتوقع أن م≠ن.
+ومن ناحية أخرى: 1٪ = 10؉.
+
+تم سؤالي: هل [فهمت] الدرس؟</text>
+  </lesson>
+  <lesson>
+   <id>{e488483b-4360-462f-9848-200480ce476c}</id>
+   <title>تضميدات المديح ورموز قرآنية (ligatures eulogiques et signes coraniques)</title>
+   <newCharacters>ﷻ﷾ﷺ﷿۩۞﴾﴿
+۝</newCharacters>
+   <text></text>
+  </lesson>
+  <lesson>
+   <id>{5b6b85f5-f17b-4124-ab87-842b08c61ff0}</id>
+   <title>إدارة ثنائية الاتجاه (Gestion de la bidirectionnalité)</title>
+   <newCharacters>|A⁦⁩⁨</newCharacters>
+   <text>⁧أرسل لي هاتين الوثيقتين:
+⁧1. رخصة القيادة الخاصة بك؛
+⁧2. بطاقة الهوية الخاصة بك.
+
+يمكن لكم أن ترو النتيجة على المصفح
+«رقم لوحة الترخيص هو ⁦12345|A|6⁩ أضن».
+</text>
+  </lesson>
+  <lesson>
+   <id>{dee9c3b9-e0c9-471e-9764-baa373cee882}</id>
+   <title>الشكل (Diacritiques vocalisatrices Chakl)</title>
+   <newCharacters>ًٌٍَُِّْ</newCharacters>
+   <text>يُولَدُ جَمِيعُ النَّاسِ أَحْرَارًا مُتَسَاوِينَ فِي
+الْكَرَامَةِ وَالْحُقُوقِ. وَقَدْ وَهَبُوا عَقْلًا
+وَضَمِيرًا، وَعَلَيْهِمْ أَنْ يُعَامِلُوا بَعْضَهُمْ بَعْضًا
+بِرُوحِ الإِخَاءِ.
+</text>
+  </lesson>
+  <lesson>
+   <id>{e527474d-e527-4474-a424-2de994f027ec}</id>
+   <title>التطويل (Tatwil)</title>
+   <newCharacters>ـ</newCharacters>
+   <text>جادَكَ الغيْثُ إذا الـغيْثُ هَمى
+يا زَمانَ الوصْــــلِ بالأندَلُسِ
+
+لمْ يكُنْ وصْلُــــــكَ إلاّ حُلُما
+في الكَرَى أو خِـلسَةَ المُخْتَلِسِ
+
+إذْ يقودُ الدّهْرُ أشْتاتَ المُنَى
+تنْقُلُ الخَطْوَ عـــلَى ما يُرْسَمُ
+
+زُفَراً بيْــــــنَ فُرادَى وثُنَى
+مثْلَما يدْعو الوفـودَ الموْسِمُ
+</text>
+  </lesson>
+  <lesson>
+   <id>{57a9024b-f4e4-454e-af2b-43bf53a58de2}</id>
+   <title>جامع حروف (pangrammes)</title>
+   <newCharacters></newCharacters>
+   <text>أبجد هوَّز حُطّي كلَمُن سَعْفَص قُرِشَت ثَخَدٌ ضَظَغ
+قال الخليل بن أحمد الفراهيدي: صف خلق خود كمثل الشمس إذ بزغت
+*** يحظى الضجيع بها نجلاء معطار
+وقال محمد بن فلاح المطيري: تصبّر على خفق الزمان وبطشه ***
+كدوح إذا غيظ الجثاة مضرس
+</text>
+  </lesson>
+ </lessons>
+</course>
