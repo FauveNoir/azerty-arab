@@ -9,7 +9,7 @@ https://fauvenoir.github.io/azerty-arab
 ’AZERTY arabe est une disposition de clavier pour saisir l’abjad arabe basée sur le principe de superposition phonétique. C’est-à-dire que les lettres arabes sont disposées de manière à ce que chaque lettre se retrouve sur la touche qui, dans la disposition originale du clavier AZERTY, contient la lettre latine qui en est la plus proche phonétiquement. De sorte à ce qu’une personne habituée à l’AZERTY original puisse retrouver intuitivement les lettres arabes avec le moins d’effort possible.
 Par exemple, la lettre ا alif est sur la même touche que A, ب ba’ est sur la même touche que B, ك kaf est sur la même touche que K, etc.
 https://fauvenoir.github.io/azerty-arab/fr/</description>
- <keyboardLayout>be</keyboardLayout>
+ <keyboardLayout>azerty_arab</keyboardLayout>
  <lessons>
   <lesson>
    <id>{befe3ca4-9bf5-41dc-9574-afa3c1c6b5f6}</id>
