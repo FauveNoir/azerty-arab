@@ -563,3 +563,49 @@ ul li.undone:before
 	content: "☐ ";
 	color: #d7005f;
 }
+
+
+h1, h2, h3, h4, h5, h6
+{
+    position: relative;
+}
+
+.section_anchor
+{
+    position: absolute;
+    display: inline-block;
+    width: 1.4em;
+    left: -1.2em;
+    overflow: hidden;
+    text-align: right;
+}
+
+.section_anchor a
+{
+    text-decoration: none;
+    position: relative;
+    right: -1.5em;
+    transition-duration: 2s;
+    transition-property: right;
+    color: #919191;
+    font-variant-emoji: text;
+    font-family: "Symbola", "Segoe UI Symbol", "Apple Symbols", sans-serif;
+
+}
+
+.section_anchor a:hover
+{
+    color: #d7005f;
+}
+
+h1:hover .section_anchor a,
+h2:hover .section_anchor a,
+h3:hover .section_anchor a,
+h4:hover .section_anchor a,
+h5:hover .section_anchor a,
+h6:hover .section_anchor a
+{
+    right: 0em;
+    transition-duration: 1s;
+    transition-property: right;
+}
