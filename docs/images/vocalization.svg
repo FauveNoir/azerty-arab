@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="59.829002mm"
+   width="98.511139mm"
    height="19.222025mm"
-   viewBox="0 0 59.829002 19.222025"
+   viewBox="0 0 98.511138 19.222025"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.49034272"
-     inkscape:cx="113.18614"
-     inkscape:cy="35.689324"
+     inkscape:zoom="2.4709557"
+     inkscape:cx="186.16279"
+     inkscape:cy="36.220803"
      inkscape:window-width="1916"
      inkscape:window-height="964"
      inkscape:window-x="0"
@@ -38,7 +38,7 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-75.141678,-139.17083)">
+     transform="translate(-36.459538,-139.17083)">
     <g
        id="g15"
        transform="matrix(0.26458333,0,0,0.26458333,234.19647,59.030086)"
@@ -202,5 +202,66 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.3379px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';stroke-width:1.57935"
            id="tspan13" /></text>
     </g>
+    <g
+       id="g19"
+       transform="matrix(0.26458333,0,0,0.26458333,195.51433,59.030086)"
+       style="display:inline">
+      <path
+         inkscape:export-ydpi="122"
+         inkscape:export-xdpi="122"
+         inkscape:export-filename="/tmp/text21076.png"
+         inkscape:connector-curvature="0"
+         id="path4"
+         d="m -590.60813,303.68383 h 55.27731 c 4.3748,0 7.89676,3.52196 7.89676,7.89676 v 55.27731 c 0,4.3748 -3.52196,7.89675 -7.89676,7.89675 h -55.27731 c -4.3748,0 -7.89676,-3.52195 -7.89676,-7.89675 v -55.27731 c 0,-4.3748 3.52196,-7.89676 7.89676,-7.89676 z"
+         style="fill:#444444;fill-opacity:1;stroke:#8c8b8c;stroke-width:1.57935;stroke-miterlimit:4;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:26.8554px;line-height:1.25;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#9a9a9a;fill-opacity:1;stroke-width:0.186496"
+         x="-562.96948"
+         y="348.10641"
+         id="text14"><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           x="-562.96948"
+           y="348.10641"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.186496">U</tspan></text>
+      <text
+         id="text17"
+         y="367.02573"
+         x="-601.15198"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.9522px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#d7005f;fill-opacity:1;stroke:none;stroke-width:1.57935"
+         xml:space="preserve"><tspan
+           y="367.02573"
+           x="-601.15198"
+           id="tspan16"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.3379px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#d7005f;fill-opacity:1;stroke-width:1.57935"> ْ</tspan><tspan
+           y="381.56836"
+           x="-601.15198"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.3379px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#d7005f;fill-opacity:1;stroke-width:1.57935"
+           id="tspan17" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.9522px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#1599dc;fill-opacity:1;stroke:none;stroke-width:1.57935"
+         x="-601.15198"
+         y="330.61316"
+         id="text19"><tspan
+           sodipodi:role="line"
+           id="tspan18"
+           x="-601.15198"
+           y="330.61316"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.3379px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';stroke-width:1.57935"> ﹰ</tspan><tspan
+           sodipodi:role="line"
+           x="-601.15198"
+           y="345.15579"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.3379px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';stroke-width:1.57935"
+           id="tspan19" /></text>
+    </g>
+    <path
+       d="m 72.01932,148.80582 q 0,0.35966 -0.279735,0.62341 -0.279736,0.26375 -0.65538,0.26375 -0.359659,0 -0.623409,-0.26375 -0.263751,-0.27174 -0.263751,-0.62341 0,-0.38364 0.263751,-0.65538 0.271742,-0.27973 0.639394,-0.27973 0.367652,0 0.639395,0.27973 0.279735,0.27174 0.279735,0.65538 z m -5.450839,0 q 0,0.35966 -0.279735,0.62341 -0.279735,0.26375 -0.655379,0.26375 -0.35966,0 -0.62341,-0.26375 -0.26375,-0.27174 -0.26375,-0.62341 0,-0.38364 0.26375,-0.65538 0.271743,-0.27973 0.639395,-0.27973 0.367652,0 0.639394,0.27973 0.279735,0.27174 0.279735,0.65538 z m -5.450838,0 q 0,0.35966 -0.279735,0.62341 -0.279735,0.26375 -0.655379,0.26375 -0.35966,0 -0.62341,-0.26375 -0.26375,-0.27174 -0.26375,-0.62341 0,-0.38364 0.26375,-0.65538 0.271743,-0.27973 0.639394,-0.27973 0.367652,0 0.639395,0.27973 0.279735,0.27174 0.279735,0.65538 z"
+       id="text20"
+       style="font-size:16.3685px;line-height:1.25;font-family:Nakula;-inkscape-font-specification:Nakula;letter-spacing:0px;word-spacing:0px;direction:rtl;fill:#ffffff;fill-opacity:1;stroke-width:0.11367"
+       aria-label="…" />
   </g>
 </svg>
