@@ -575,22 +575,41 @@ h1, h2, h3, h4, h5, h6
     position: absolute;
     display: inline-block;
     width: 1.4em;
-    left: -1.2em;
     overflow: hidden;
+}
+
+html[dir="ltr"] .section_anchor
+{
+    left: -1.2em;
     text-align: right;
+}
+
+html[dir="rtl"] .section_anchor
+{
+    right: -1.2em;
+    text-align: left;
 }
 
 .section_anchor a
 {
     text-decoration: none;
     position: relative;
-    right: -1.5em;
     transition-duration: 2s;
-    transition-property: right;
     color: #919191;
     font-variant-emoji: text;
     font-family: "Symbola", "Segoe UI Symbol", "Apple Symbols", sans-serif;
+}
 
+html[dir="ltr"] .section_anchor a
+{
+    right: -1.5em;
+    transition-property: right;
+}
+
+html[dir="rtl"] .section_anchor a
+{
+    left: -1.5em;
+    transition-property: left;
 }
 
 .section_anchor a:hover
@@ -605,7 +624,27 @@ h4:hover .section_anchor a,
 h5:hover .section_anchor a,
 h6:hover .section_anchor a
 {
-    right: 0em;
     transition-duration: 1s;
+}
+
+html[dir="ltr"] h1:hover .section_anchor a,
+html[dir="ltr"] h2:hover .section_anchor a,
+html[dir="ltr"] h3:hover .section_anchor a,
+html[dir="ltr"] h4:hover .section_anchor a,
+html[dir="ltr"] h5:hover .section_anchor a,
+html[dir="ltr"] h6:hover .section_anchor a
+{
+    right: 0em;
     transition-property: right;
+}
+
+html[dir="rtl"] h1:hover .section_anchor a,
+html[dir="rtl"] h2:hover .section_anchor a,
+html[dir="rtl"] h3:hover .section_anchor a,
+html[dir="rtl"] h4:hover .section_anchor a,
+html[dir="rtl"] h5:hover .section_anchor a,
+html[dir="rtl"] h6:hover .section_anchor a
+{
+    left: 0em;
+    transition-property: left;
 }
