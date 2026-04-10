@@ -143,10 +143,10 @@ SendKey(base, deadkeymap) {
 +SC09::SendKey("U+002d", {}) ; -
 
  SC0a::SendKey("U+0039", {}) ; 9
-+SC0a::SendKey("U+002f", {}) ; /
++SC0a::SendKey("U+002a", {}) ; *
 
  SC0b::SendKey("U+0030", {}) ; 0
-+SC0b::SendKey("U+002a", {}) ; *
++SC0b::SendKey("U+002f", {}) ; /
 
 ;  Letters, first row
 
@@ -299,10 +299,10 @@ SendKey(base, deadkeymap) {
  <^>!SC09::SendKey("U+005d", {}) ; ]
 <^>!+SC09::SendKey("U+0668", {}) ; ٨
 
- <^>!SC0a::SendKey("U+00f7", {}) ; ÷
+ <^>!SC0a::SendKey("U+00d7", {}) ; ×
 <^>!+SC0a::SendKey("U+0669", {}) ; ٩
 
- <^>!SC0b::SendKey("U+00d7", {}) ; ×
+ <^>!SC0b::SendKey("U+00f7", {}) ; ÷
 <^>!+SC0b::SendKey("U+0660", {}) ; ٠
 
 ;  Letters, first row
