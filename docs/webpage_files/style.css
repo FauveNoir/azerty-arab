@@ -478,12 +478,27 @@ html[dir="rtl"] .central-illustraton > table
 
 #language-selector
 {
+    text-align: right;
+}
+
+#language-selector > div
+{
     position: fixed;
-    background: #111;
     top: 0px;
+    background: #111;
     border-radius: 0 0 4px 4px;
-    display: block;
+    display: inline-block;
     padding: 8px;
+}
+
+html[dir="ltr"] #language-selector > div
+{
+    right: 0;
+}
+
+html[dir="rtl"] #language-selector > div
+{
+    left: 0;
 }
 
 .todo
