@@ -658,3 +658,8 @@ table td, table th {
 {
     white-space: nowrap;
 }
+
+.attention
+{
+    color: #fb660a;
+}
