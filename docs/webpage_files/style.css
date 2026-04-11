@@ -440,7 +440,7 @@ thead {
       position: relative;
   }
 
-thead th {
+table:not(.discrete) thead th {
     border-top: 2px solid white;
     border-bottom: 1px solid white;
 }
@@ -451,7 +451,7 @@ table td
         padding: 4px;
 }
 
-table thead + tbody tr:last-of-type  td
+table:not(.discrete) thead + tbody tr:last-of-type  td
 {
     border-bottom: 1px solid white;
 }
@@ -647,4 +647,14 @@ html[dir="rtl"] h6:hover .section_anchor a
 {
     left: 0em;
     transition-property: left;
+}
+
+/* Pour toutes les cellules de la table */
+table td, table th {
+    vertical-align: top;
+}
+
+.keybinding
+{
+    white-space: nowrap;
 }

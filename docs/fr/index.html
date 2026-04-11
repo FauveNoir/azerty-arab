@@ -186,35 +186,103 @@ Cette façon est de loin la plus simple et la plus stable façon de procéder à
             </h4>
 
             <p>
-Il a été procédé autant que faire ce peu à une superposition sémantique la plus mnémotechnique possible. Toutefois, il a bien fallut concilier cette exigences avec certaines contraintes de disponibilités. C’est pourquoi le cas de certaines lettres nécessitent quelques explications aux utilisateurs :
+Il a été procédé autant que faire ce peu à une superposition sémantique la plus mnémotechnique possible. Toutefois, il a bien fallut concilier cette exigences avec certaines contraintes de disponibilités. C’est pourquoi le cas de certaines lettres nécessite quelques explications aux utilisateurs :
             </p>
-            <ul>
-                <li>
-                    Bien que ce ne soit pas spécialement contre intuitif, la lettre <span class="derivate">ش</span> shīn se trouve sur <span class="primitiv">c</span>.<br />
-                    <small>Car, si <kbd>s</kbd> semblait plus intuitive pour <span class="derivate">س</span> sīn qui se prononce /s/ en langue française (qui est la langue <abbr title="langues qui privilégient l’alphabet latin pour se transcrire">latinographiées</abbr> la plus courante et mieux connue dans les pays arabes concernés par l’AZERTY), la lettre <span class="primitiv">c</span> semble être la seconde lettre la plus courante pour transcrire le son [ʃ] dans les autres langues latinographiées</small> ;
-                </li>
-                <li>
-                    La lettre <span class="derivate">و</span> waw ne se trouve pas sur o mais sur <span class="primitiv">w</span> afin de permettre aux trois touches des diacritiques vocalisatrices (<kbd>ـَ</kbd> <kbd>ـِ</kbd> <kbd>ـُ</kbd>) de demeurer cote à cote ;
-                </li>
-                <li>
-                    La fatĥa <span class="derivate">ـَ</span> se trouve sur <span class="primitiv">u</span> afin de la placer cote à cote des deux autres diacritiques de vocalisation ;
-                </li>
-                <li>
-                    La lettre <span class="derivate">خ</span> khā se trouve sur <span class="primitiv">x</span>.<br />
-                    <small>
-                    Et ce car, i) d’une part, cette touche était libre, et ii) d’autre part le son auquel est associée cette lettre, la <a href="https://fr.wikipedia.org/wiki/Consonne_fricative_v%C3%A9laire_sourde">consonne fricative vélaire sourde</a> est souvent représenté par le symbole <i>x</i>, que ce soit dans l’<a href="https://fr.wikipedia.org/wiki/Alphabet_phon%C3%A9tique_international">API</a>, ou mêmes les autres langues qui ont ce son comme le χ du grec moderne, le x du russe et de l’ukrainien, le x de l’azéri, et le x du kurde ;
-                    </small>
-                </li>
-                <li>
-                    La lettre <span class="derivate">ع</span> ayn se trouve à l’emplacement du <span class="primitiv">$</span> par défaut d’équivalent en latin ;
-                </li>
-                <li>
-                    La lettre <span class="derivate">أ</span> <i>alif hamza</i> se trouve à l’emplacement de <span class="primitiv">&lt;</span> par défaut de meilleur emplacement ;
-                </li>
-                <li>
-                    Par corolaire, La lettre <span class="derivate">إ</span> <i>alif hamza souscrite</i> se trouve de façon intuitive en <kbd>Shift</kbd>+<kbd>أ</kbd>.
-                </li>
-            </ul>
+
+            <div class="central-illustraton" >
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Lettre</th>
+                            <th>Touches</th>
+                            <th>Explications</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>
+                            <span class="derivate">ش</span>
+                        </td>
+                        <td>
+                            <kbd>c</kbd>
+                        </td>
+                        <td>
+                            <small>
+                            Bien que ce choix ne soit pas spécialement contre intuitif, il ne mérite pas moins un éclaircissement. Si <kbd>s</kbd> semblait plus intuitive pour <span class="derivate">س</span> sīn qui se prononce /s/ en langue française (qui est la langue <abbr title="langues qui privilégient l’alphabet latin pour se transcrire">latinographiées</abbr> la plus courante et mieux connue dans les pays arabes concernés par l’AZERTY), la lettre <span class="primitiv">c</span> semble être la seconde lettre la plus courante pour transcrire le son [ʃ] dans les autres langues latinographiées</small>  comme l’italien.
+                            </small>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="derivate">خ</span>
+                        </td>
+                        <td>
+                            <kbd>x</kbd>
+                        </td>
+                        <td>
+                            Le choix a été motivé car i) d’une part, la touche <kbd>x</kbd> était libre, et ii) d’autre part le son auquel est associée la lettre <span class="derivate">خ</span>, la <a href="https://fr.wikipedia.org/wiki/Consonne_fricative_v%C3%A9laire_sourde">consonne fricative vélaire sourde</a> est souvent représenté par le symbole <i>x</i>, que ce soit dans l’<a href="https://fr.wikipedia.org/wiki/Alphabet_phon%C3%A9tique_international">API</a>, ou mêmes les autres langues qui ont ce son comme le χ du grec moderne, le x du russe et de l’ukrainien, le x de l’azéri, et le x du kurde.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="derivate">و</span>
+                        </td>
+                        <td>
+                            <kbd>w</kbd>
+                        </td>
+                        <td>
+                            La lettre <span class="derivate">و</span> waw ne se trouve pas sur o, comme il aurait été plus intuitif de s’y attendre, mais sur <span class="primitiv">w</span> afin de permettre aux trois touches des diacritiques vocalisatrices (<kbd>ـَ</kbd> <kbd>ـِ</kbd> <kbd>ـُ</kbd>) de demeurer cote à cote.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="derivate">ـَ</span>
+                        </td>
+                        <td>
+                            <kbd>u</kbd>
+                        </td>
+                        <td>
+                            Le signe diacritique de la fatĥa <span class="derivate">ـَ</span> se trouve sur <span class="primitiv">u</span> afin de la placer cote à cote des deux autres diacritiques de vocalisation.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="derivate">ع</span>
+                        </td>
+                        <td>
+                            <kbd>$</kbd>
+                        </td>
+                        <td>
+                            La lettre <span class="derivate">ع</span> ayn se trouve à l’emplacement du <span class="primitiv">$</span> par défaut d’équivalent en latin.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="derivate">أ</span>
+                        </td>
+                        <td>
+                            <kbd>&lt;</kbd>
+                        </td>
+                        <td>
+                            La lettre <span class="derivate">أ</span> <i>alif hamza</i> se trouve à l’emplacement de <span class="primitiv">&lt;</span> par défaut de meilleur emplacement ;
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="derivate">إ</span>
+                        </td>
+                        <td>
+                            <span class="keybinding"><kbd>Shift</kbd>+<kbd>&lt;</kbd></span>
+                        </td>
+                        <td>
+                            Par corolaire au cas précédent, la lettre <span class="derivate">إ</span> <i>alif hamza souscrite</i> se trouve de façon intuitive en <kbd>Shift</kbd> de son équivalent à la hamza suscrite.
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
 
             <h4>
                 <span class="section_anchor"><a href="#chiffres">⚓ </a><a name="chiffres"></a></span>
