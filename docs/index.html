@@ -11,7 +11,13 @@
         <script type="text/javascript">
             function openCity(evt, cityName) {
                 // Declare all variables
-                var i, tabcontent, tablinks;
+                var i, tabcontent, installation;
+
+                // Mark the whool group as active
+                installations = document.getElementsByClassName("installations");
+                for (i = 0; i < installations.length; i++) {
+                    installations[i].className += " active";
+                }
 
                 // Get all elements with class="tabcontent" and hide them
                 tabcontent = document.getElementsByClassName("tabcontent");
@@ -19,10 +25,10 @@
                     tabcontent[i].style.display = "none";
                 }
 
-                // Get all elements with class="tablinks" and remove the class "active"
-                tablinks = document.getElementsByClassName("tablinks");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                // Get all elements with class="installation" and remove the class "active"
+                installation = document.getElementsByClassName("installation");
+                for (i = 0; i < installation.length; i++) {
+                    installation[i].className = installation[i].className.replace(" active", "");
                 }
 
                 // Show the current tab, and add an "active" class to the button that opened the tab

@@ -378,6 +378,16 @@ kbd
     text-align: center;
     cursor: pointer;
     transition: 0.3s;
+    scroll-behavior: unset;
+}
+
+.installations.active .installation
+{
+    border-radius: 4px 4px 0 0;
+}
+
+.installation.active:hover {
+  background-color: #171717;
 }
 
 .installation:hover {
@@ -385,11 +395,23 @@ kbd
   color: black;
 }
 
+.installation.active
+{
+    border-bottom: 0;
+    color: white;
+    border: 1px solid rgb(119, 119, 119);
+    border-bottom: 0;
+    background-color: rgb(23, 23, 23);
+}
+
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
   border-top: none;
+
+  border: 1px solid rgb(119, 119, 119);
+  margin-top: -1px;
+  background-color: rgb(23, 23, 23);
 }
 
 .os-logs
