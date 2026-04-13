@@ -483,7 +483,8 @@ table td
         padding: 4px;
 }
 
-table:not(.discrete) thead + tbody tr:last-of-type  td
+table:not(.discrete) thead ~ tbody tr:last-of-type  td,
+table:not(.discrete) thead ~ tbody tr td.wool-tbody
 {
     border-bottom: 1px solid white;
 }
