@@ -50,7 +50,7 @@
     "Quote": [ "ط", "۩", "ظ" ],
     "Backquote": [ "$", "#", "–", "¶" ],
     "Backslash": [ "ص", "ﷺ", "ض" ],
-    "IntlBackslash": [ "أ", "إ" ],
+    "IntlBackslash": [ "أ", "إ", "ٰ", "ٖ" ],
     "Space": [ " ", " ", "ـ", " " ]
   },
   "deadkeys": {},
