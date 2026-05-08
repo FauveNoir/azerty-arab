@@ -667,16 +667,24 @@ Il a été procédé autant que faire ce peu à une superposition phonétique la
             <p>
             Prenons par exemple le cas de la phrase suivante où la composition des marges fait que le nom propre <i>Ibn baṫṫūṫaẗ</i> se retrouve en fin de ligne, forçant le premier composant a rester sur la première ligne et le second à se retrouver en début de ligne suivante :
             <p>
-            <img src="../images/nobreak-space-problem.svg" alt="" width="100%"class="">
+            <img src="../images/nobreak-space-problem.svg" alt="" width="100%" class="">
+            <p>
+            Ou encore le cas où l’on doit écrire un numéro de téléphone, mais que pour des raisons de lisibilité l’on souhaite inclure des espaces pour une meilleure lisibilité des digrammes, auquel cas le numéro peut se retrouvé dispersé entre deux lignes :
+            <p>
+            <img src="../images/nobreak-space-phonenumber-problem.svg" alt="" width="100%" class="">
 
             <p>
-            Dans ce cas là, l’espace insécable, accessible en <kbd>Shift</kbd>+<kbd>Espace</kbd>, placée entre les deux mots ou symboles du syntagme permet avantageusement de toujours les maintenir cote à cote.
+            Dans les deux cas, l’espace insécable, accessible en <kbd>Shift</kbd>+<kbd>Espace</kbd>, placée entre les symboles d’un  syntagme permet avantageusement de toujours les maintenir cote à cote sur une seule et même ligne.
             </p>
 
             <p>
-            Ainsi, dans l’exemple précédent, écrire « ابن<span class="derivate">⍽</span>بطّوطة » permet d’assurer qu’en toute situation le syntagme reste solidaire sur la même ligne. Où le symbole « <span class="derivate">⍽</span> » ne fait que représenter, pour des raisons de clarté, l’espace insécable qui évidement est invisible et non-imprimable.
+            Ainsi, dans le premier exemple, écrire « ابن<span class="derivate">⍽</span>بطّوطة » permet d’assurer qu’en toute situation le syntagme reste solidaire sur la même ligne. Où le symbole « <span class="derivate">⍽</span> » ne fait que représenter, pour des raisons de clarté, l’espace insécable qui évidement est invisible et non-imprimable.
             </p>
-            <img src="../images/nobreak-space-solution.svg" alt="" width="100%"class="">
+            <img src="../images/nobreak-space-solution.svg" alt="" width="100%" class="">
+            <p>
+            Tandis que dans le deuxième exemple, écrire « 06<span class="derivate">⍽</span>12<span class="derivate">⍽</span>34<span class="derivate">⍽</span>56<span class="derivate">⍽</span>78 » permet d’assurer qu’en toute situation l’ensemble du numéro de téléphone, même s’il contient des espaces soit traité comme un mot unique, et que donc l’ensemble reste solidaire sur la même ligne. En bonus, cela résout même en partie le problème de bi-directionnalité.
+            </p>
+            <img src="../images/nobreak-space-phonenumber-solution.svg" alt="" width="100%" class="">
 
             <h4>
                 <span class="section_anchor"><a href="#bidi">⚓ </a><a name="bidi"></a></span>
